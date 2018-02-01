@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView12T" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namaHotelT"
+        android:textSize="20dp"
+        android:layout_marginLeft="18dp"
+        android:textColor="#000000"
+        android:text="Aryaduta Makassar"
+        android:layout_marginStart="18dp"
+        android:layout_alignTop="@+id/imageView12T"
+        android:layout_toRightOf="@+id/imageView12T"
+        android:layout_marginTop="22dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/bintang1T"
+        android:src="@drawable/ic_star"
+        android:layout_below="@+id/namaHotelT"
+        android:layout_alignLeft="@+id/namaHotelT"
+        android:layout_alignStart="@+id/namaHotelT" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/bintang2T"
+        android:src="@drawable/ic_star"
+        android:layout_below="@+id/namaHotelT"
+        android:layout_toRightOf="@+id/bintang1T"
+        android:layout_toEndOf="@+id/bintang1T" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/bintang3T"
+        android:src="@drawable/ic_star"
+        android:layout_below="@+id/namaHotelT"
+        android:layout_toRightOf="@+id/bintang2T"
+        android:layout_toEndOf="@+id/bintang2T" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/bintang4T"
+        android:src="@drawable/ic_star"
+        android:layout_below="@+id/namaHotelT"
+        android:layout_toRightOf="@+id/bintang3T"
+        android:layout_toEndOf="@+id/bintang3T" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/bintang5T"
+        android:src="@drawable/ic_star"
+        android:layout_below="@+id/namaHotelT"
+        android:layout_toRightOf="@+id/bintang4T"
+        android:layout_toEndOf="@+id/bintang4T" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/lokasi"
+        android:layout_marginTop="14dp"
+        android:id="@+id/imageView14u"
+        android:layout_below="@+id/bintang1T"
+        android:layout_alignLeft="@+id/bintang1T"
+        android:layout_alignStart="@+id/bintang1T" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:id="@+id/lokasihotelT"
+        android:layout_marginLeft="5dp"
+        android:text="Makassar, Sulawesi Selatan"
+        android:layout_alignTop="@+id/imageView14u"
+        android:layout_toRightOf="@+id/imageView14u"
+        android:layout_toEndOf="@+id/imageView14u"
+        android:layout_alignBottom="@+id/imageView14u" />
+
+
+</RelativeLayout>

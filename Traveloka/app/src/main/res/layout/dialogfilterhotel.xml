@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="425dp"
+        android:id="@+id/batassss">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#0770CD"
+        android:text="Kisaran harga per kamar, \n per malam"
+        android:id="@+id/textView133" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:id="@+id/Lin"
+        android:layout_below="@+id/textView133"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Rp. 0"
+                android:textSize="17dp"
+                android:gravity="center"/>
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/dkjadhjaajda"
+                android:layout_below="@+id/j1"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Rp. 0"
+                android:textSize="17dp"
+                android:gravity="center"/>
+
+    </LinearLayout>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarHargaHotel1"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/Lin"
+        android:layout_alignLeft="@+id/hargaFilter"
+        android:layout_alignStart="@+id/hargaFilter" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/dkjadhjaa999aaajdava"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/seekBarHargaHotel1"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#0770CD"
+        android:layout_below="@+id/dkjadhjaa999aaajdava"
+        android:text="Bintang"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/textView1a33" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView1a33"
+        android:gravity="center"
+        android:id="@+id/lin2"
+        android:layout_height="100dp">
+
+        <Button
+            android:layout_width="60dp"
+            android:drawableLeft="@drawable/bintangtidakaktifcopy"
+            android:text="1"
+            android:id="@+id/b1"
+            android:padding="10dp"
+            android:background="@drawable/border2"
+            android:layout_height="60dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:drawableLeft="@drawable/bintangtidakaktifcopy"
+            android:text="2"
+            android:padding="10dp"
+            android:id="@+id/b2"
+            android:background="@drawable/border2"
+            android:layout_height="60dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:drawableLeft="@drawable/bintangtidakaktifcopy"
+            android:text="3"
+            android:id="@+id/b3"
+            android:padding="10dp"
+            android:background="@drawable/border2"
+            android:layout_height="60dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:drawableLeft="@drawable/bintangtidakaktifcopy"
+            android:text="4"
+            android:padding="10dp"
+            android:id="@+id/b4"
+            android:background="@drawable/border2"
+            android:layout_height="60dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:drawableLeft="@drawable/bintangtidakaktifcopy"
+            android:text="5"
+            android:padding="10dp"
+            android:id="@+id/b5"
+            android:background="@drawable/border2"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/dkjadhjaa999aaajdavaa"
+        android:layout_below="@+id/lin2"
+        android:background="@android:color/darker_gray"/>
+
+    <!--Batassssss
+    "
+    -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/dkjadhjaa999aaajdavaa"
+        android:textColor="#0770CD"
+        android:text="Fasilitas"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/textVieaw1a33" />
+    <!---->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textVieaw1a33"
+        android:gravity="center"
+        android:id="@+id/lin4"
+        android:layout_height="100dp">
+
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:text="Wifi"
+            android:textSize="11dp"
+            android:padding="5dp"
+            android:id="@+id/fa1"
+            android:textAlignment="inherit"
+            android:drawableTop="@drawable/wifi_fcopy"
+            android:background="@drawable/border2"/>
+
+        <Button
+            android:id="@+id/fa2"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border2"
+            android:drawableTop="@drawable/pool_fcopy"
+            android:padding="5dp"
+            android:textSize="11dp"
+            android:text="Kolam" />
+
+        <Button
+            android:id="@+id/fa3"
+            android:layout_width="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="75dp"
+            android:textSize="11dp"
+            android:background="@drawable/border2"
+            android:drawableTop="@drawable/parkir_f"
+            android:padding="5dp"
+            android:text="Parkir" />
+
+        <Button
+            android:id="@+id/fa4"
+            android:layout_width="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="75dp"
+            android:background="@drawable/border2"
+            android:drawableTop="@drawable/restoran_f"
+            android:padding="5dp"
+            android:textSize="11dp"
+            android:text="Restoran" />
+
+    </LinearLayout>
+
+    <!--Kinbadkjbasjhdgagsjhdjhgasdgasgdahsj-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/lin4"
+        android:gravity="center"
+        android:id="@+id/lin5"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/fa5"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border2"
+            android:drawableTop="@drawable/lift_f"
+            android:padding="5dp"
+            android:textSize="11dp"
+            android:text="Lift" />
+
+        <Button
+            android:id="@+id/fa6"
+            android:layout_width="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="75dp"
+            android:background="@drawable/border2"
+            android:drawableTop="@drawable/pusatkebugaran_f"
+            android:padding="5dp"
+            android:textSize="10dp"
+            android:text="Kebugaran" />
+
+        <Button
+            android:id="@+id/fa7"
+            android:textSize="11dp"
+            android:layout_width="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="75dp"
+            android:background="@drawable/border2"
+            android:drawableTop="@drawable/rapat_f"
+            android:padding="5dp"
+            android:text="Rapat" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:text="Antar"
+            android:padding="5dp"
+            android:id="@+id/fa8"
+            android:textSize="11dp"
+            android:textAlignment="inherit"
+            android:drawableTop="@drawable/antar_f"
+            android:background="@drawable/border2"/>
+
+
+    </LinearLayout>
+
+        </RelativeLayout>
+
+        </ScrollView>
+
+
+    <!--bayatdasdiasduasdasidasduas-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:foregroundGravity="bottom"
+        android:background="#E6EAED"
+        android:gravity="center"
+        android:layout_below="@+id/batassss"
+        android:layout_height="60dp">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="Selesai"
+            android:id="@+id/filtersekarang"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_style3"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

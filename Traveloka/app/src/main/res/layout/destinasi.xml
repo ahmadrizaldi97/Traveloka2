@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.Destinasi">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Pilih Destinasi Penerbangan"
+        android:id="@+id/textViewadaaaa" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textViewadaaaa"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Aceh"
+                android:id="@+id/c1"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ambon"
+                android:id="@+id/c2"
+                android:layout_below="@+id/c1"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bali"
+                android:id="@+id/c3"
+                android:layout_below="@+id/c2"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Balikpapan"
+                android:id="@+id/c4"
+                android:layout_below="@+id/c3"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bali"
+                android:id="@+id/c5"
+                android:layout_below="@+id/c4"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bandung"
+                android:id="@+id/c6"
+                android:layout_below="@+id/c5"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Banjarmasin"
+                android:id="@+id/c7"
+                android:layout_below="@+id/c6"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bima"
+                android:id="@+id/c8"
+                android:layout_below="@+id/c7"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gorontalo"
+                android:id="@+id/c9"
+                android:layout_below="@+id/c8"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jakarta"
+                android:id="@+id/c10"
+                android:layout_below="@+id/c9"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jayapura"
+                android:id="@+id/c11"
+                android:layout_below="@+id/c10"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kendari"
+                android:id="@+id/c12"
+                android:layout_below="@+id/c11"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kupang"
+                android:id="@+id/c13"
+                android:layout_below="@+id/c12"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lombok"
+                android:id="@+id/c14"
+                android:layout_below="@+id/c13"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Luwuk"
+                android:id="@+id/c15"
+                android:layout_below="@+id/c14"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Makassar"
+                android:id="@+id/c16"
+                android:layout_below="@+id/c15"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Malang"
+                android:id="@+id/c17"
+                android:layout_below="@+id/c16"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Manado"
+                android:id="@+id/c18"
+                android:layout_below="@+id/c17"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Medan"
+                android:id="@+id/c19"
+                android:layout_below="@+id/c18"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Merauke"
+                android:id="@+id/c20"
+                android:layout_below="@+id/c19"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Padang"
+                android:id="@+id/c21"
+                android:layout_below="@+id/c20"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Palembang"
+                android:id="@+id/c22"
+                android:layout_below="@+id/c21"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pekanbaru"
+                android:id="@+id/c23"
+                android:layout_below="@+id/c22"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Samarinda"
+                android:id="@+id/c24"
+                android:layout_below="@+id/c23"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Semarang"
+                android:id="@+id/c25"
+                android:layout_below="@+id/c24"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Solo"
+                android:id="@+id/c26"
+                android:layout_below="@+id/c25"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sorong"
+                android:id="@+id/c27"
+                android:layout_below="@+id/c26"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Surabaya"
+                android:id="@+id/c28"
+                android:layout_below="@+id/c27"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Timika"
+                android:id="@+id/c29"
+                android:layout_below="@+id/c28"
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Wamena"
+                android:id="@+id/c30"
+                android:layout_below="@+id/c29"
+                />
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

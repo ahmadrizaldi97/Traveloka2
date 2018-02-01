@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Jenis Tempat Tidur"/>
+
+    <RadioGroup
+        android:id="@+id/bedtype"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/singleBed"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Single Bed"
+            android:checked="true" />
+
+        <RadioButton
+
+            android:id="@+id/doublebed"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Double Bed"
+             />
+
+        <RadioButton
+            android:id="@+id/twinbed"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Twin Bed"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/simpanTempatTidur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Simpan"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_style"/>
+
+</LinearLayout>

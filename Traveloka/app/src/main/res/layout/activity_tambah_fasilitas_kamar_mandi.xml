@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.ahmadrizaldi.traveloka.TambahFasilitasKamarMandi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fasilitas Kamar Mandi"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/textView108" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:id="@+id/mfk1"
+                android:text="Shower"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:id="@+id/mfk2"
+                android:text="Toiletries"/>
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:id="@+id/mfk3"
+                android:text="Bathtub"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:id="@+id/mfk4"
+                android:text="Hair Dryer"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:id="@+id/mfk5"
+                android:text="Bathrobes"/>
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:textColor="#ffffff"
+                android:text="Simpan"
+                android:id="@+id/mkfButton"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahmadrizaldi.traveloka">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/travelokalogo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/travelokalogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".Register_ACT" />
+        <activity android:name=".Login_ACT" />
+        <activity android:name=".MainMenu" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LupaPasswordACT" />
+        <activity android:name=".SearchFlights" />
+        <activity android:name=".FromAndTo" />
+        <activity android:name=".ListPenerbangans" />
+        <activity android:name=".PenerbanganTersedia" />
+        <activity android:name=".TambahFlights_Maskapai" />
+        <activity android:name=".tambah_flights" />
+        <activity android:name=".Tampildata" />
+        <activity android:name=".InsertData" />
+        <activity android:name=".CobaCoba" />
+        <activity android:name=".DataPemesan" />
+        <activity
+            android:name=".Pemesanan"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".Transfer" />
+        <activity android:name=".KonfirmasiPembayaran" />
+        <activity android:name=".KonfirmasiPembayaran_Detail" />
+        <activity android:name=".DaftarBookingForUser" />
+        <activity android:name=".ETicket" />
+        <activity android:name=".TambahRekening" />
+        <activity
+            android:name=".KonfirmasiPmb"
+            android:label="@string/title_activity_konfirmasi_pmb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Review_" />
+        <activity android:name=".PilihBankTransfer" />
+        <activity android:name=".ReadBeforeYouPay" />
+        <activity android:name=".InsertData2" />
+        <activity android:name=".InsertData3" />
+        <activity android:name=".InsertData4" />
+        <activity android:name=".CariPenerbanganbaru" />
+        <activity android:name=".PenumpangYangAkanDiubah" />
+        <activity android:name=".PenumpangYangAkanDiUbah_" />
+        <activity android:name=".Konfirmasi_Reschedule" />
+        <activity android:name=".Konfirmasi_Reschedule_D" />
+        <activity
+            android:name=".MainM"
+            android:label="@string/title_activity_main_m" />
+        <activity android:name=".CariHotel" />
+        <activity android:name=".HotelTersedia" />
+        <activity android:name=".PermintaanKhusus" />
+        <activity android:name=".HotelDetail" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDSKP8CT3yacxSg0WScn1vjWyZWLwi42A8" />
+
+        <uses-feature
+            android:glEsVersion="0x00020000"
+            android:required="true" />
+
+        <activity android:name=".PilihHotel" />
+        <activity android:name=".PilihRoomHotel" />
+        <activity android:name=".Hotel_Isi_data" />
+        <activity android:name=".TambahHotel" />
+        <activity android:name=".TambahGambar" />
+        <activity android:name=".RegisterHotel" />
+        <activity android:name=".model.DeskripsiHotel" />
+        <activity android:name=".PilihBankTransfer_Hotel" />
+        <activity android:name=".InputRekening" />
+        <activity android:name=".TambahRoomHotel" />
+        <activity android:name=".RoomPemilikHotel" />
+        <activity android:name=".InsertDataHotel" />
+        <activity android:name=".ReviewHotel" />
+        <activity android:name=".ReadBeforeYouPay_Hotel" />
+        <activity android:name=".DaftarHotel_Pemilik" />
+        <activity android:name=".TransferHotel" />
+        <activity android:name=".RegisterMaskapai" />
+        <activity android:name=".Destinasi" />
+        <activity android:name=".DataPenerbangan_MSKP" />
+        <activity android:name=".Review_R" />
+        <activity android:name=".PenerbanganTersediaR" />
+        <activity android:name=".PilihBankTransferR" />
+        <activity android:name=".DataPemesan_Hotel" />
+        <activity android:name=".Booking_Hotel" />
+        <activity android:name=".KonfirmasiPembayaranHotel" />
+        <activity android:name=".KonfirmasiPembayaranHotelDetail" />
+        <activity android:name=".Voucher" />
+        <activity android:name=".InputDeskripsiKamar" />
+        <activity android:name=".tambahFasilitasKamar" />
+        <activity android:name=".TambahFasilitasKamarMandi" />
+        <activity android:name=".RoomDetail" />
+        <activity android:name=".PilihHotelUntukTambahRoom" />
+        <activity android:name=".FasilitasUtamaHotel" />
+        <activity
+            android:name=".PemesananHotel"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".HomeMaskapai"
+            android:theme="@style/AppTheme3" />
+        <activity android:name=".HomeHotel" />
+        <activity
+            android:name=".HomeAdmin"
+            android:theme="@style/AppTheme3" />
+        <activity android:name=".RegisterAdmin" />
+        <activity android:name=".ReservasiKhususMaskapai" />
+        <activity android:name=".DataPNRMaskapai" />
+        <activity android:name=".exit" />
+        <activity android:name=".Lokasi" />
+        <activity android:name=".ReservasiHotel_PemilikHotel" />
+        <activity android:name=".PilihHotelUntukLiharReservasi" />
+        <activity android:name=".ManagementFlightForMaskapai" />
+        <activity android:name=".EditFlight_Maskapai" />
+        <activity android:name=".EditRoom"></activity>
+    </application>
+
+</manifest>

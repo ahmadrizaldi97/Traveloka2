@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.RoomDetail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+        <ImageView
+        android:id="@+id/view_pager1"
+        android:scaleType="fitXY"
+        android:src="@drawable/hoa"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+    </ImageView>
+
+
+    <HorizontalScrollView
+        android:id="@+id/dddd1"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/view_pager1">
+
+        <LinearLayout
+            android:id="@+id/container1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/r1"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/hoa"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/r2"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/hoa"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/r3"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/hoa"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/r4"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/hoa"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/r5"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/hoa"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="NAMA HOTEL"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/garudalogo"
+        android:id="@+id/namaHotelDet"
+        android:layout_below="@+id/dddd1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/dkjadhjajdaDer"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/namaHotelDet"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="HARGA TOTAL 1 MALAM 1 KAMAR"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/basabasi"
+        android:layout_below="@+id/dkjadhjajdaDer"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Rp. 456.234"
+        android:textColor="#F96D01"
+        android:textSize="20dp"
+        android:layout_marginTop="7dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/garudalogo"
+        android:id="@+id/hargaRoomDet"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/basabasi" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/dkjadhjajadaDer"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/hargaRoomDet"
+        android:background="@android:color/darker_gray"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/poinlogo"
+        android:layout_marginTop="16dp"
+        android:id="@+id/imageView13"
+        android:layout_below="@+id/dkjadhjajadaDer"
+        android:layout_alignLeft="@+id/hargaRoomDet"
+        android:layout_alignStart="@+id/hargaRoomDet" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Pesan sekarang dan dapatkan  "
+        android:layout_height="wrap_content"
+        android:id="@+id/basabasia"
+        android:textColor="#000000"
+        android:layout_marginLeft="7dp"
+        android:layout_alignTop="@+id/imageView13"
+        android:layout_toRightOf="@+id/imageView13"
+        android:layout_toEndOf="@+id/imageView13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="200 Poin"
+        android:layout_height="wrap_content"
+        android:id="@+id/poinYangAkanDidapat"
+        android:textColor="#269DD7"
+        android:layout_alignBaseline="@+id/basabasia"
+        android:layout_alignBottom="@+id/basabasia"
+        android:layout_toRightOf="@+id/basabasia"
+        android:layout_toEndOf="@+id/basabasia" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E6EAED"
+        android:layout_below="@+id/imageView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/textView126" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="17dp"
+        android:text="Tinjauan Kamar"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/textView126"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp" />
+            
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/textView126"
+                android:src="@drawable/hoa"
+                android:id="@+id/imageView19" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Ukuran Kamar"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/textView126"
+                android:layout_toRightOf="@+id/imageView19"
+                android:layout_toEndOf="@+id/imageView19"
+                android:id="@+id/textView130" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="12.1 m2"
+                android:layout_below="@+id/textView130"
+                android:layout_alignLeft="@+id/textView130"
+                android:layout_alignStart="@+id/textView130"
+                android:id="@+id/textView131" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/dkjadhjajaadaDer"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/imageView19"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/dkjadhjajaadaDer"
+                android:src="@drawable/hoa"
+                android:layout_marginTop="15dp"
+                android:id="@+id/imageaView19" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:text="Tipe Tempat Tidur"
+                android:id="@+id/textViewa130"
+                android:layout_alignTop="@+id/imageaView19"
+                android:layout_alignLeft="@+id/textView131"
+                android:layout_alignStart="@+id/textView131" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Double Bed"
+                android:id="@+id/tipeTempatTidurDetail"
+                android:layout_below="@+id/textViewa130"
+                android:layout_alignLeft="@+id/textViewa130"
+                android:layout_alignStart="@+id/textViewa130" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#E6EAED"
+                android:layout_below="@+id/imageaView19"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="11dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/textView126a" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Fasilitas Kamar"
+                android:id="@+id/textViaew"
+                android:layout_marginBottom="11dp"
+                android:layout_alignBottom="@+id/textView126a"
+                android:layout_alignLeft="@+id/imageaView19"
+                android:layout_alignStart="@+id/imageaView19" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/textView126a"
+                android:id="@+id/fasilitasKamarDetail"
+                android:text="1. Ac \n 2. AA \n 3. BB"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#E6EAED"
+                android:layout_below="@+id/fasilitasKamarDetail"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/textView126aa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Fasilitas Kamar Mandi"
+                android:id="@+id/textViaaew"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="11dp"
+                android:layout_alignBottom="@+id/textView126aa"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/textView126aa"
+                android:id="@+id/fasilitasKamarMandiDetail"
+                android:text="1. Ac \n 2. AA \n 3. BB"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#E6EAED"
+                android:layout_below="@+id/fasilitasKamarMandiDetail"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/textVieaaw126aa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Deskripsi Kamar"
+                android:id="@+id/textVaiaaew"
+                android:layout_marginBottom="11dp"
+                android:layout_alignBottom="@+id/textVieaaw126aa"
+                android:layout_alignLeft="@+id/fasilitasKamarMandiDetail"
+                android:layout_alignStart="@+id/fasilitasKamarMandiDetail" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/textVieaaw126aa"
+                android:id="@+id/deskripsiKamarDetail"
+                android:text="1. Ac \n 2. AA \n 3. BB"
+                android:layout_marginBottom="20dp"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

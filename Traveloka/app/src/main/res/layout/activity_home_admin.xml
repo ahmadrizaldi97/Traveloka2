@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.HomeAdmin">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@mipmap/mount"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/p10aaa"
+                    android:gravity="center_vertical"
+                    android:text="Welcome,"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/p10"
+                    android:gravity="center_vertical"
+                    android:text="Welcome"
+                    android:textColor="#ffffff"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/i1"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="70dp"
+                    android:gravity="center_vertical"
+                    android:text="04/01/2018"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Penerbangan" />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/fight_"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:id="@+id/i2"
+                android:text="     Tambah Maskapai"
+                android:textColor="#0770CD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/pay"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:id="@+id/i3"
+                android:text="     Konfirmasi Pembayaran"
+                android:textColor="#0770CD" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel" />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/home"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:id="@+id/i4"
+                android:text="     Tambah Pemilik Hotel"
+                android:textColor="#0770CD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/pay"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:id="@+id/i5"
+                android:text="     Konfirmasi Pembayaran"
+                android:textColor="#0770CD" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lainnya" />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/admin"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:id="@+id/tambahAdmin"
+                android:text="     Tambah Admin"
+                android:textColor="#0770CD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/rekening"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:id="@+id/i6"
+                android:text="     Rekening"
+                android:textColor="#0770CD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ffffff"
+                android:id="@+id/i7"
+                android:paddingLeft="20dp"
+                android:textColor="#0770CD"
+                android:gravity="center_vertical"
+                android:text="     Keluar"
+                android:drawableLeft="@drawable/exit"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

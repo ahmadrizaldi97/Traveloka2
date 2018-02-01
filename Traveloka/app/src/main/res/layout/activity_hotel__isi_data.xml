@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6EAED"
+    tools:context="com.example.ahmadrizaldi.traveloka.Hotel_Isi_data">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Pesanan Anda"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="#ffffff"
+                android:layout_below="@+id/textView"
+                android:id="@+id/textView91" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aryaduta Makassar"
+                android:layout_alignTop="@+id/textView91"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#000000"
+                android:id="@+id/textView92" />
+            
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Check-in"
+                android:layout_marginTop="13dp"
+                android:layout_below="@+id/textView92"
+                android:layout_alignLeft="@+id/textView92"
+                android:layout_alignStart="@+id/textView92"
+                android:id="@+id/textView93" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Check-out"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/textView93"
+                android:layout_alignLeft="@+id/textView93"
+                android:layout_alignStart="@+id/textView93"
+                android:id="@+id/textView94" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Kamar"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/textView94"
+                android:layout_alignLeft="@+id/textView94"
+                android:layout_alignStart="@+id/textView94"
+                android:id="@+id/textView96" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Kam, 16 Nov 2017"
+                android:layout_alignBaseline="@+id/textView93"
+                android:layout_alignBottom="@+id/textView93"
+                android:layout_toRightOf="@+id/textView93"
+                android:layout_toEndOf="@+id/textView93"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/textView95" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Kam, 17 Nov 2017"
+                android:layout_alignBaseline="@+id/textView94"
+                android:layout_alignBottom="@+id/textView94"
+                android:layout_alignLeft="@+id/textView95"
+                android:layout_alignStart="@+id/textView95"
+                android:id="@+id/textView97" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Deluxe Room"
+                android:layout_alignBaseline="@+id/textView96"
+                android:layout_alignBottom="@+id/textView96"
+                android:layout_alignLeft="@+id/textView97"
+                android:layout_alignStart="@+id/textView97" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_below="@+id/textView91"
+                android:text="Data Pemesan"
+                android:id="@+id/textViews" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:layout_below="@+id/textViews"
+                android:id="@+id/textView98" />
+            
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView98"
+                android:layout_alignLeft="@+id/textViews"
+                android:layout_alignStart="@+id/textViews"
+                android:text="AHMAD RIZALDI"
+                android:textColor="#000000"
+                android:layout_marginTop="21dp"
+                android:id="@+id/textView99" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubah"
+                android:textSize="15dp"
+                android:textColor="#0770CD"
+                android:id="@+id/textView6"
+                android:layout_alignTop="@+id/textView99"
+                android:layout_alignRight="@+id/textView92"
+                android:layout_alignEnd="@+id/textView92" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:text="+6282344466665/ahmadrizaldi97.jr@gmail.com"
+                android:layout_alignLeft="@+id/textView99"
+                android:layout_alignStart="@+id/textView99"
+                android:id="@+id/textView100" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:hint="Nama Lengkap Tamu (Sesuai Identitas)"
+                android:layout_below="@+id/textView100"
+                android:layout_alignLeft="@+id/textView100"
+                android:layout_alignStart="@+id/textView100"
+                android:id="@+id/editText7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText7"
+                android:layout_marginRight="20dp"
+                android:text="Hanya bisa menggunakan huruf (a-z)"
+                android:layout_alignLeft="@+id/editText7"
+                android:layout_alignStart="@+id/editText7"
+                android:id="@+id/textView101" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView98"
+                android:text="Tambah Permintaan Khusus"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:id="@+id/tambahpermintaankhusus"
+                android:textColor="#0770CD"
+                
+                />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_below="@+id/tambahpermintaankhusus"
+                android:id="@+id/textView102" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Harga Total"
+                android:textColor="#000000"
+                android:layout_marginTop="17dp"
+                android:layout_alignTop="@+id/textView102"
+                android:layout_alignLeft="@+id/textView101"
+                android:layout_alignStart="@+id/textView101"
+                android:id="@+id/textView103" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Rp. 1.421.444"
+                android:gravity="right"
+                android:textColor="#000000"
+                android:layout_alignBaseline="@+id/textView103"
+                android:layout_alignBottom="@+id/textView103"
+                android:layout_alignRight="@+id/textView101"
+                android:layout_alignEnd="@+id/textView101" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#A5DBFF"
+                android:id="@+id/dabdjhahd"
+                android:layout_below="@+id/textView102"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#1878C2"
+                android:textSize="15dp"
+                android:text="Akun ini (Ahmadrizaldi97.jr@gmail.com) akan mendapatkan 100 Poin"
+                android:id="@+id/textView64"
+                android:layout_below="@+id/textView102"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/dabdjhahd"
+                android:background="#ffffff"
+                android:id="@+id/textView104" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lanjutkan"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_style"
+                android:layout_alignTop="@+id/textView104"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="14dp" />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

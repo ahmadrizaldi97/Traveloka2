@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.PermintaanKhusus">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#D2ECFA"
+                android:id="@+id/pembatas"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/info"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:id="@+id/imageView15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/permintaankhusus"
+                android:layout_alignTop="@+id/imageView15"
+                android:layout_toRightOf="@+id/imageView15"
+                android:layout_marginRight="5dp"
+                android:layout_toEndOf="@+id/imageView15" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:id="@+id/bebasAsapRokok"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Kamar Bebas Asap Rokok"
+                android:layout_below="@+id/pembatas"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:id="@+id/kamardenganpintupenghubung"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Kamar dengan Pintu Penghubung"
+                android:layout_below="@+id/bebasAsapRokok"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Lantai Atas"
+                android:layout_below="@+id/kamardenganpintupenghubung"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Lantai Atas"
+                android:id="@+id/LantaiAtas"
+                android:layout_below="@+id/kamardenganpintupenghubung"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Tipe Ranjang"
+                android:id="@+id/TipeRanjang"
+                android:layout_below="@+id/LantaiAtas"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="210dp"
+                android:layout_below="@+id/TipeRanjang"
+                android:background="#ffffff"
+                android:id="@+id/textView105" />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Selesai"
+                android:background="@drawable/button_style"
+                android:id="@+id/selesai"
+                android:layout_marginTop="152dp"
+                android:layout_below="@+id/TipeRanjang"
+                android:layout_alignRight="@+id/TipeRanjang"
+                android:layout_alignEnd="@+id/TipeRanjang" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

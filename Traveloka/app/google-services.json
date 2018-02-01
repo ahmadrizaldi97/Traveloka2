@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "332812213608",
+    "firebase_url": "https://traveloka-1984a.firebaseio.com",
+    "project_id": "traveloka-1984a",
+    "storage_bucket": "traveloka-1984a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332812213608:android:b2ea4c0000391e7b",
+        "android_client_info": {
+          "package_name": "com.example.ahmadrizaldi.traveloka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332812213608-lja9dvc6pd2s2nhd85svn18m2bt6i9q8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahmadrizaldi.traveloka",
+            "certificate_hash": "015fbe21e06c90bf6d529d0d64051f3131ead0ef"
+          }
+        },
+        {
+          "client_id": "332812213608-8c5s13lt5u6t80cip2uu2groao2r36uv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJdt-eI5bwhvRUrxGEuXar3zIUJtO7YFs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332812213608-8c5s13lt5u6t80cip2uu2groao2r36uv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

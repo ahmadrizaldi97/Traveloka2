@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E9EE"
+    tools:context="com.example.ahmadrizaldi.traveloka.TransferHotel">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Traveloka Booking ID 123456789"
+                android:textSize="17dp"
+                android:id="@+id/bookingidTransf_h"
+                android:layout_marginTop="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/textView21_h"
+                android:layout_alignStart="@+id/textView21_h" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Lakukan transaksi sebelum"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="69dp"
+                android:id="@+id/textView21_h"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+        <!---->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:layout_below="@+id/textView21_h"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView22_h" />
+<!---->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:12 PM Hari ini"
+                android:textColor="#000000"
+                android:layout_marginRight="20dp"
+                android:layout_alignTop="@+id/textView22_h"
+                android:layout_alignLeft="@+id/textView21_h"
+                android:layout_alignStart="@+id/textView21_h"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView23_h" />
+
+            <!---->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selesaikan pembayaran dalam 1 j 48 menit"
+                android:textSize="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/textView23_h"
+                android:layout_alignLeft="@+id/textView23_h"
+                android:layout_alignStart="@+id/textView23_h"
+                android:id="@+id/textView24_h" />
+
+
+<!---->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Mohon transfer ke"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView22_h"
+                android:layout_alignLeft="@+id/textView24_h"
+                android:layout_alignStart="@+id/textView24_h"
+                android:layout_marginTop="14dp"
+                android:id="@+id/textView25_h" />
+
+            <!---->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="#ffffff"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/textView25_h"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView26_h" />
+
+            <!---->
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:src="@drawable/usericonss"
+                android:id="@+id/imageView3_h"
+                android:layout_marginTop="12dp"
+                android:layout_alignTop="@+id/textView26_h"
+                android:layout_alignLeft="@+id/textView25_h"
+                android:layout_alignStart="@+id/textView25_h" />
+
+            <!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor Rekening"
+                android:layout_marginTop="13dp"
+                android:id="@+id/textView27_h"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_alignTop="@+id/textView26_h"
+                android:layout_toRightOf="@+id/imageView3_h"
+                android:layout_toEndOf="@+id/imageView3_h" />
+
+<!---->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7998799867"
+                android:id="@+id/nomorrekening_h"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/textView27_h"
+                android:layout_alignLeft="@+id/textView27_h"
+                android:layout_alignStart="@+id/textView27_h" />
+
+            <!---->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#E6E9EE"
+                android:id="@+id/textView28_h"
+                android:layout_below="@+id/nomorrekening_h"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp" />
+
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pemilik Rekening"
+                android:textSize="15dp"
+                android:textColor="#919191"
+                android:layout_alignTop="@+id/textView28_h"
+                android:layout_alignLeft="@+id/nomorrekening_h"
+                android:layout_alignStart="@+id/nomorrekening_h"
+                android:layout_marginTop="11dp"
+                android:id="@+id/textView29_h" />
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 1 Proyek"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/textView29_h"
+                android:layout_alignLeft="@+id/textView29_h"
+                android:layout_alignStart="@+id/textView29_h"
+                android:id="@+id/textView30_h" />
+
+<!---->
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/bni"
+                android:id="@+id/imageView4_h"
+                android:layout_alignTop="@+id/textView29_h"
+                android:layout_alignRight="@+id/textView24_h"
+                android:layout_alignEnd="@+id/textView24_h" />
+
+            <!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jumlah Total"
+                android:textSize="15dp"
+                android:textColor="#919191"
+                android:layout_marginTop="12dp"
+                android:id="@+id/dahdkjask_h"
+                android:layout_below="@+id/textView28_h"
+                android:layout_alignLeft="@+id/textView30_h"
+                android:layout_alignStart="@+id/textView30_h" />
+
+            <!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 2.500.000"
+                android:id="@+id/jumlahTotals_h"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/dahdkjask_h"
+                android:layout_alignLeft="@+id/dahdkjask_h"
+                android:layout_alignStart="@+id/dahdkjask_h" />
+<!---->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Anda Sudah Membayar ?"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:id="@+id/textView21s_h"
+                android:layout_below="@+id/textView26_h"
+                android:layout_alignLeft="@+id/imageView3_h"
+                android:layout_alignStart="@+id/imageView3_h" />
+<!---->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_below="@+id/textView21s_h"
+                android:background="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView31_h" />
+<!---->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="20dp"
+                android:textColor="#000000"
+                android:text="Setelah pembayaran Anda dikonfirmasi, kami akan mengirim bukti pembelian dan e-tiket penerbangan ke alamat email anda"
+                android:layout_alignTop="@+id/textView31_h"
+                android:layout_alignLeft="@+id/textView21s_h"
+                android:layout_alignStart="@+id/textView21s_h"
+                android:layout_marginTop="14dp"
+                android:id="@+id/textView65_h" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0E6FB6"
+                android:background="#F6F6F6"
+                android:text="Saya Sudah Bayar"
+                android:id="@+id/sayasudahbayar_h"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/textView65_h"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp" />
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

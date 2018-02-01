@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context="com.example.ahmadrizaldi.traveloka.SearchFlights"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kota Asal"
+            android:id="@+id/textView8"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/darimana"
+            android:text="Ujung Pandang (UPG)"
+
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kota Tujuan"
+                android:id="@+id/textView80"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/darimana"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kemana"
+            android:text="Surabaya (SUB)"
+            android:focusable="false"
+            android:layout_below="@+id/textView80"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView80s"
+                android:layout_below="@+id/kemana"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/tanggal_berangkat"
+           android:text="19/3/2018"
+           android:focusable="false"
+           android:layout_below="@+id/textView80s"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tanggal_berangkat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView9" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView9"
+        android:id="@+id/kelass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:entries="@array/kelas">
+
+    </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Penumpang"
+            android:id="@+id/textVis"
+            android:layout_marginTop="87dp"
+            android:layout_below="@+id/tanggal_berangkat"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="1"
+            android:focusable="false"
+            android:id="@+id/jumlah_penumpang"
+            android:layout_below="@+id/textVis"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:textColor="#ffffff"
+            android:id="@+id/CariPenerbanganssss"
+            android:text="Cari"/>
+    </LinearLayout>
+
+</RelativeLayout>

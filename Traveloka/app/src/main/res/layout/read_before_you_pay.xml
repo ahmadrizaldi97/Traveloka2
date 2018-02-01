@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6EAED"
+    tools:context="com.example.ahmadrizaldi.traveloka.ReadBeforeYouPay">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Baca sebelum bayar"
+                android:id="@+id/textViewss" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/textViewss"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView66" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pembayaran dapat dilakukan melalui ATM, SMS Banking atau datang ke teller bank"
+                android:layout_marginTop="16dp"
+                android:layout_margin="20dp"
+                android:textSize="17dp"
+                android:layout_alignTop="@+id/textView66"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView68" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/card_style"
+                android:layout_below="@+id/textView66"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:id="@+id/textView67" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Kupon"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginBottom="16dp"
+                android:layout_alignBottom="@+id/textView67"
+                android:layout_alignLeft="@+id/textView68"
+                android:layout_alignStart="@+id/textView68"
+                android:id="@+id/textView69" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#0770CD"
+                android:textSize="20dp"
+                android:text="APPLY"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:id="@+id/textView70"
+                android:layout_alignBaseline="@+id/textView69"
+                android:layout_alignBottom="@+id/textView69"
+                android:layout_alignRight="@+id/textView68"
+                android:layout_alignEnd="@+id/textView68"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/card_style"
+                android:layout_below="@+id/textView67"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:id="@+id/textView679" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Poin saya"
+                android:id="@+id/textView69s"
+                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/textView679"
+                android:layout_alignLeft="@+id/textView69"
+                android:layout_alignStart="@+id/textView69" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#0770CD"
+                android:textSize="20dp"
+                android:text="TUKAR"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_alignBaseline="@+id/textView69s"
+                android:layout_alignBottom="@+id/textView69s"
+                android:layout_alignLeft="@+id/textView70"
+                android:layout_alignStart="@+id/textView70"
+                android:id="@+id/textView72" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="10.000 Poins"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginTop="32dp"
+                android:id="@+id/textView71"
+                android:layout_below="@+id/textView69s"
+                android:layout_alignRight="@+id/textView69s"
+                android:layout_alignEnd="@+id/textView69s" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="= Rp. 1.000.000"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:gravity="right"
+                android:layout_alignBaseline="@+id/textView71"
+                android:layout_alignBottom="@+id/textView71"
+                android:layout_alignRight="@+id/textView72"
+                android:layout_alignEnd="@+id/textView72"
+                android:id="@+id/textView73" />
+
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Rincian Harga"
+                android:id="@+id/textViewsss"
+                android:layout_below="@+id/textView679"
+                android:layout_alignLeft="@+id/textView68"
+                android:layout_alignStart="@+id/textView68" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:id="@+id/textView66s"
+                android:layout_below="@+id/textViewsss" />
+
+
+            <!--shhjsa-->
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Trigana Air (1x)"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:layout_marginTop="19dp"
+                android:id="@+id/textView60"
+                android:layout_alignTop="@+id/textView66s"
+                android:layout_alignLeft="@+id/textViewsss"
+                android:layout_alignStart="@+id/textViewsss" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:gravity="right"
+                android:text="Rp. 1.000.000"
+                android:id="@+id/textView62"
+                android:layout_alignBaseline="@+id/textView60"
+                android:layout_alignBottom="@+id/textView60"
+                android:layout_alignRight="@+id/textView73"
+                android:layout_alignEnd="@+id/textView73" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#41A370"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:text="Kode unik"
+                android:id="@+id/textView61"
+                android:layout_below="@+id/textView60"
+                android:layout_alignLeft="@+id/textView60"
+                android:layout_alignStart="@+id/textView60" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:textColor="#41A370"
+                android:textSize="16dp"
+                android:gravity="right"
+                android:text="Rp. 4.321"
+                android:layout_alignBaseline="@+id/textView61"
+                android:layout_alignBottom="@+id/textView61"
+                android:layout_alignLeft="@+id/textView62"
+                android:layout_alignStart="@+id/textView62"
+                android:id="@+id/textView63" />
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Potongan Poin"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView60s"
+                android:layout_below="@+id/textView61"
+                android:layout_alignLeft="@+id/textView61"
+                android:layout_alignStart="@+id/textView61" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:textColor="#cc101f"
+                android:textSize="16dp"
+                android:gravity="right"
+                android:text="Rp. 1.000.000"
+                android:id="@+id/textView62s"
+                android:layout_alignBaseline="@+id/textView60s"
+                android:layout_alignBottom="@+id/textView60s"
+                android:layout_alignLeft="@+id/textView63"
+                android:layout_alignStart="@+id/textView63" />
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:id="@+id/textView60ss"
+                android:layout_below="@+id/textView60s"
+                android:layout_alignLeft="@+id/textView60s"
+                android:layout_alignStart="@+id/textView60s" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:gravity="right"
+                android:text="Rp. 1.000.000"
+                android:id="@+id/textView62ss"
+                android:layout_alignBaseline="@+id/textView60ss"
+                android:layout_alignBottom="@+id/textView60ss"
+                android:layout_alignLeft="@+id/textView62s"
+                android:layout_alignStart="@+id/textView62s" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/dadjahhda"
+                android:layout_below="@+id/textView66s"
+                android:background="#EEFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#1878C2"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Selesaikan transaksi dan akun (Ahmadrizaldi97.jr@gmail.com) akan mendapatkan 100 Poin"
+                android:id="@+id/textView64"
+                android:layout_below="@+id/textView66s"
+                android:layout_marginTop="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:textColor="#ffffff"
+                android:id="@+id/ketransfer"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Bayar dengan transfer"
+                android:layout_below="@+id/dadjahhda"/>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>

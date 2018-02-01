@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E6EAED"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.PilihBankTransfer"
+    >
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Pilih Bank"
+        android:id="@+id/textViewss_hotel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textViewss_hotel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView65_hotel" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/bca"
+        android:layout_alignTop="@+id/textView65_hotel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView7_hotel" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="BCA"
+        android:id="@+id/bca_hotel"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/imageView7_hotel"
+        android:layout_toRightOf="@+id/imageView7_hotel"
+        android:layout_toEndOf="@+id/imageView7_hotel"
+        android:layout_alignBottom="@+id/imageView7_hotel" />
+
+    <!--dkald-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:id="@+id/textView65s_hotel"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/textView65_hotel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/mandiri"
+        android:layout_alignTop="@+id/textView65s_hotel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView7s_hotel" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Mandiri"
+        android:id="@+id/mandiri_hotel"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/imageView7s_hotel"
+        android:layout_toRightOf="@+id/imageView7s_hotel"
+        android:layout_toEndOf="@+id/imageView7s_hotel"
+        android:layout_alignBottom="@+id/imageView7s_hotel" />
+
+    <!--daghas-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:id="@+id/textView652s_hotel"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/textView65s_hotel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/bri"
+        android:layout_alignTop="@+id/textView652s_hotel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView72s_hotel" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="BRI"
+        android:id="@+id/bri_hotel"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/imageView72s_hotel"
+        android:layout_toRightOf="@+id/imageView72s_hotel"
+        android:layout_toEndOf="@+id/imageView72s_hotel"
+        android:layout_alignBottom="@+id/imageView72s_hotel" />
+
+    <!--djsahh-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="3dp"
+        android:id="@+id/textView65s1_hotel"
+        android:layout_below="@+id/textView652s_hotel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/bni"
+        android:layout_alignTop="@+id/textView65s1_hotel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView71s_hotel" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="BNI"
+        android:id="@+id/bnis_hotel"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/imageView71s_hotel"
+        android:layout_toRightOf="@+id/imageView71s_hotel"
+        android:layout_toEndOf="@+id/imageView71s_hotel"
+        android:layout_alignBottom="@+id/imageView71s_hotel" />
+
+
+</RelativeLayout>

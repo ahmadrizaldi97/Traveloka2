@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.TambahRoomHotel">
+    
+    <!---->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Ruangan"
+                android:layout_margin="7dp"
+                android:id="@+id/dkjagsfdhasgkhlkjdkjhascfasz"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namaroom"
+                android:hint="Nama Ruangan"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/dkjagsfdhasgkhlkjdkjhascfasz"
+                 />
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Ukuran Kamar"
+                android:layout_margin="7dp"
+                android:layout_below="@+id/namaroom"
+                android:id="@+id/dkjagsfdhasgkhlkjdakjhascfasz"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ukuranKamar"
+                android:focusable="false"
+                android:hint="Ukuran kamar"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/dkjagsfdhasgkhlkjdakjhascfasz"
+                 />
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Tipe Tempat Tidur"
+                android:id="@+id/dkjagsfdhasgkhlkjdakjhasacfasz"
+                android:layout_alignBaseline="@+id/dkjagsfdhasgkhlkjdakjhascfasz"
+                android:layout_alignBottom="@+id/dkjagsfdhasgkhlkjdakjhascfasz"
+                android:layout_toRightOf="@+id/ukuranKamar"
+                android:layout_toEndOf="@+id/ukuranKamar" />
+
+            <EditText
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tipeTempatTidur"
+                android:hint="Tipe Tempat Tidur"
+                android:focusable="false"
+                android:layout_alignBaseline="@+id/ukuranKamar"
+                android:layout_alignBottom="@+id/ukuranKamar"
+                android:layout_toRightOf="@+id/ukuranKamar"
+                android:layout_toEndOf="@+id/ukuranKamar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fasilitas Kamar"
+                android:layout_margin="7dp"
+                android:id="@+id/dkjagsfdhasgkhlkjdaakjhascfasz"
+                android:layout_below="@+id/ukuranKamar"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textColor="#0770CD"
+                android:background="#E6EAED"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="Masukkan Fasilitas Kamar"
+                android:id="@+id/dkjagsfdhasgkhlkjdaaaakjhascfasz"
+                android:layout_below="@+id/dkjagsfdhasgkhlkjdaakjhascfasz"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fasilitas Kamar Mandi"
+                android:id="@+id/dkjagsfdhasgkhlkajdaakjhascfasz"
+                android:layout_margin="7dp"
+                android:layout_below="@+id/dkjagsfdhasgkhlkjdaaaakjhascfasz"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:textColor="#0770CD"
+                android:background="#E6EAED"
+                android:gravity="center_vertical"
+                android:text="Masukkan Fasilitas Kamar Mandi"
+                android:id="@+id/fasilitaskamarmandi"
+                android:layout_below="@+id/dkjagsfdhasgkhlkajdaakjhascfasz"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi kamar"
+                android:layout_margin="10dp"
+                android:id="@+id/dkjagsfdhasgkhlkajdaakjhascfaszadadja"
+                android:layout_below="@+id/fasilitaskamarmandi"
+                android:layout_alignLeft="@+id/dkjagsfdhasgkhlkajdaakjhascfasz"
+                android:layout_alignStart="@+id/dkjagsfdhasgkhlkajdaakjhascfasz" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/deskripsiRoom"
+                android:gravity="center"
+                android:padding="20dp"
+                android:textColor="#0770CD"
+                android:text="Klik untuk mengubah"
+                android:layout_below="@+id/dkjagsfdhasgkhlkajdaakjhascfaszadadja"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stok Kamar"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/dkjagsfdhasgkhl"
+            android:layout_below="@+id/deskripsiRoom"
+            android:layout_alignLeft="@+id/dkjagsfdhasgkhlkajdaakjhascfasz"
+            android:layout_alignStart="@+id/dkjagsfdhasgkhlkajdaakjhascfasz" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:id="@+id/YYYY"
+            android:layout_below="@+id/dkjagsfdhasgkhl">
+
+                <TextView
+                android:layout_width="30dp"
+                android:layout_height="31dp"
+                android:background="@drawable/minus"
+                android:id="@+id/stokKamarkurang"
+                android:layout_alignBaseline="@+id/stokKamar"
+                android:layout_alignBottom="@+id/stokKamar"
+                android:layout_toRightOf="@+id/ukuranKamar" />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="30dp"
+                    android:text="1 Kamar"
+                    android:gravity="center"
+                    android:background="#E6EAED"
+                    android:id="@+id/stokKamara"
+                    android:layout_below="@+id/dkjagsfdhasgkhl"
+                    android:layout_alignLeft="@+id/dkjagsfdhasgkhlkajdaakjhascfasz"
+                    android:layout_alignStart="@+id/dkjagsfdhasgkhlkajdaakjhascfasz"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignRight="@+id/dkjagsfdhasgkhlkjdakjhascfasz"
+                    android:layout_alignEnd="@+id/dkjagsfdhasgkhlkjdakjhascfasz" />
+
+
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="31dp"
+                    android:background="@drawable/tambah"
+                    android:id="@+id/stokKamartambah"
+                    android:layout_alignBaseline="@+id/stokKamarTambah"
+                    android:layout_alignBottom="@+id/stokKamarTambah"
+                    android:layout_toRightOf="@+id/stokKamarTambah"
+                    android:layout_toEndOf="@+id/stokKamarTambah" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gambar Ruangan"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:layout_below="@+id/YYYY"
+                android:id="@+id/dkjagsfdhasgkhlkjdkjhascfaszaaaaa"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/gmb1"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/dkjagsfdhasgkhlkjdkjhascfaszaaaaa"
+                android:src="@drawable/hoa"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/gmb1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/horizontal"
+                android:layout_height="wrap_content">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <ImageView
+                       android:layout_width="70dp"
+                       android:layout_height="70dp"
+                       android:scaleType="fitXY"
+                       android:id="@+id/gmb2"
+                       android:src="@drawable/hoa"
+                       android:layout_alignParentBottom="true"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentStart="true" />
+
+                   <ImageView
+                       android:layout_width="70dp"
+                       android:layout_height="70dp"
+                        android:id="@+id/gmb3"
+                       android:scaleType="fitXY"
+                       android:layout_marginLeft="10dp"
+                       android:src="@drawable/hoa"
+                       android:layout_alignParentTop="true"
+                       android:layout_toRightOf="@+id/gmb2"
+                       android:layout_toEndOf="@+id/gmb2" />
+
+                   <ImageView
+                       android:layout_width="70dp"
+                       android:layout_height="70dp"
+                       android:id="@+id/gmb4"
+                       android:scaleType="fitXY"
+                       android:layout_marginLeft="10dp"
+                       android:src="@drawable/hoa"
+                       android:layout_alignParentTop="true"
+                       android:layout_toRightOf="@+id/gmb3"
+                       android:layout_toEndOf="@+id/gmb3" />
+
+                   <ImageView
+                       android:layout_width="70dp"
+                       android:layout_height="70dp"
+                       android:id="@+id/gmb5"
+                       android:scaleType="fitXY"
+                       android:layout_marginLeft="10dp"
+                       android:src="@drawable/hoa"
+                       android:layout_alignParentTop="true"
+                       android:layout_toRightOf="@+id/gmb4"
+                       android:layout_toEndOf="@+id/gmb4" />
+
+                   <ImageView
+                       android:layout_width="70dp"
+                       android:layout_height="70dp"
+                       android:id="@+id/gmb6"
+                       android:scaleType="fitXY"
+                       android:layout_marginLeft="10dp"
+                       android:src="@drawable/hoa"
+                       android:layout_alignParentTop="true"
+                       android:layout_toRightOf="@+id/gmb5"
+                       android:layout_toEndOf="@+id/gmb5" />
+               </RelativeLayout>
+
+            </HorizontalScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/dkjagsfdhasgkhlkjdkjdsadahascfasz"
+                android:layout_below="@+id/horizontal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Harga"
+                android:id="@+id/hargaroom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/dkjagsfdhasgkhlkjdkjdsadahascfasz"
+                android:inputType="number"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tambahRoom"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_style"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/hargaroom"
+                android:text="Tambah Room"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

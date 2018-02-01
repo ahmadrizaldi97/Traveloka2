@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.ahmadrizaldi.traveloka.UserFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#1BA0E2"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Welcome"
+                android:textColor="#ffffff"
+                android:textSize="30dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ahmadrizaldi97.jr@gmail.com"
+                android:textColor="#ffffff"
+                android:id="@+id/US_email"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:background="@drawable/border3"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1BA0E2"
+                android:padding="10dp"
+                android:id="@+id/US_poinUser"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/poinlogocopy"
+                android:text="12350 Poin"/>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#ffffff"
+            android:id="@+id/US_Exit"
+            android:paddingLeft="20dp"
+            android:textColor="#0770CD"
+            android:gravity="center_vertical"
+            android:text="     Keluar"
+            android:drawableLeft="@drawable/exit"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</FrameLayout>

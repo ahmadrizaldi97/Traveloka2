@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.Konfirmasi_Reschedule_D">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/imageView5"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView32"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. Transaksi"
+                android:textColor="#000000"
+                android:layout_margin="20dp"
+                android:textSize="14dp"
+                android:id="@+id/textView32" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123456789"
+                android:id="@+id/textView33dd"
+                android:layout_above="@+id/imageView5"
+                android:layout_alignLeft="@+id/textView32"
+                android:layout_alignStart="@+id/textView32" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Booking"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView32s"
+                android:layout_alignBaseline="@+id/textView32"
+                android:layout_alignBottom="@+id/textView32"
+                android:layout_toRightOf="@+id/imageView5"
+                android:layout_toEndOf="@+id/imageView5"
+                android:layout_marginLeft="17dp"
+                android:layout_marginStart="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thu, 19/10/2017"
+                android:layout_above="@+id/imageView5"
+                android:layout_alignRight="@+id/textView32s"
+                android:layout_alignEnd="@+id/textView32s"
+                android:id="@+id/textView40" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/imageView5"
+                android:layout_alignRight="@+id/textView32"
+                android:layout_alignEnd="@+id/textView32"
+                android:id="@+id/textView34" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/imageView5"
+                android:layout_alignLeft="@+id/textView32s"
+                android:layout_alignStart="@+id/textView32s"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:id="@+id/textView35" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPG"
+                android:textSize="50dp"
+                android:layout_below="@+id/textView34"
+                android:layout_toLeftOf="@+id/imageView5"
+                android:layout_toStartOf="@+id/imageView5"
+                android:id="@+id/textView36123" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="Makassar"
+                android:gravity="center"
+                android:layout_marginTop="7dp"
+                android:textSize="16dp"
+                android:id="@+id/bandaraaaaa1"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView36123"
+                android:layout_alignLeft="@+id/textView36123"
+                android:layout_alignStart="@+id/textView36123"
+                android:layout_alignRight="@+id/textView36123"
+                android:layout_alignEnd="@+id/textView36123" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUB"
+                android:id="@+id/dhjsjdsdjsjdhj"
+                android:textSize="50dp"
+                android:layout_below="@+id/textView35"
+                android:layout_toRightOf="@+id/imageView5"
+                android:layout_toEndOf="@+id/imageView5" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="Surabaya"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:id="@+id/bandaraaaaa2"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/bandaraaaaa1"
+                android:layout_alignBottom="@+id/bandaraaaaa1"
+                android:layout_alignLeft="@+id/dhjsjdsdjsjdhj"
+                android:layout_alignStart="@+id/dhjsjdsdjsjdhj"
+                android:layout_alignRight="@+id/dhjsjdsdjsjdhj"
+                android:layout_alignEnd="@+id/dhjsjdsdjsjdhj" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="44dp"
+                android:layout_height="200dp"
+                android:background="#E6EAED"
+                android:id="@+id/textView38"
+                android:layout_below="@+id/textView36123"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Penumpang"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:id="@+id/textView37"
+                android:layout_marginTop="17dp"
+                android:layout_alignTop="@+id/textView38"
+                android:layout_alignLeft="@+id/textView33dd"
+                android:layout_alignStart="@+id/textView33dd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Ahmad Rizaldi"
+                android:layout_marginTop="11dp"
+                android:layout_below="@+id/textView37"
+                android:layout_alignLeft="@+id/textView37"
+                android:layout_alignStart="@+id/textView37"
+                android:id="@+id/textView3999" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flight ID"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:id="@+id/textView47"
+                android:layout_alignBaseline="@+id/textView37"
+                android:layout_alignBottom="@+id/textView37"
+                android:layout_alignRight="@+id/dhjsjdsdjsjdhj"
+                android:layout_alignEnd="@+id/dhjsjdsdjsjdhj" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/flightid_konf"
+                android:text="GA123"
+                android:layout_marginTop="3dp"
+                android:layout_below="@+id/textView47"
+                android:layout_alignLeft="@+id/textView47"
+                android:layout_alignStart="@+id/textView47" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biaya Administrasi"
+                android:id="@+id/textView8"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/textView38"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/biayaAdministrasi"
+                android:hint="Biaya Administrasi"
+                android:inputType="number"
+                android:text="0"
+                android:layout_below="@+id/textView8"
+                android:layout_alignLeft="@+id/konfirmasi_reschedule"
+                android:layout_alignStart="@+id/konfirmasi_reschedule" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/biayaAdministrasi"
+                android:text="Konfirmasi Reschedule"
+                android:id="@+id/konfirmasi_reschedule"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

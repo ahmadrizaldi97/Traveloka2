@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.TambahHotel">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Lokasi"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="20dp"
+               android:layout_marginRight="20dp"
+               android:id="@+id/dakjhdahjgdh2aa"
+               />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Lokasi Hotel"
+               android:focusable="false"
+               android:id="@+id/lokasiHtl"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="20dp"
+               android:layout_below="@+id/dakjhdahjgdh2aa"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Alamat"
+               android:layout_below="@+id/lokasiHtl"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="20dp"
+               android:id="@+id/dakjhdahjgdh2"
+               />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Alamat Hotel"
+               android:id="@+id/alamatHotel"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="20dp"
+               android:layout_below="@+id/dakjhdahjgdh2"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Fasilitas Utama"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="20dp"
+               android:layout_below="@+id/alamatHotel"
+               android:id="@+id/dakjhdahjgdah"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="11dp"
+               android:textColor="#0770CD"
+               android:layout_below="@+id/dakjhdahjgdah"
+               android:id="@+id/fasilitasUtamaHotelTambah"
+               android:text="KLIK UNTUK MENAMBAH FASILITAS"
+               android:textSize="17dp"
+               android:gravity="center"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Deskripsi"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="20dp"
+               android:layout_below="@+id/fasilitasUtamaHotelTambah"
+               android:id="@+id/dakjhdahjgdh"
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:textColor="#0770CD"
+               android:layout_marginTop="11dp"
+               android:layout_below="@+id/dakjhdahjgdh"
+               android:id="@+id/deskripsi_HHHHH"
+               android:text="KLIK UNTUK MENAMBAH DESKRIPSI"
+               android:textSize="17dp"
+               android:gravity="center"
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="20dp"
+               android:layout_below="@+id/deskripsi_HHHHH"
+               android:text="Pilih Lokasi"
+               android:id="@+id/textView109" />
+
+           <FrameLayout
+               android:id="@+id/content3"
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:layout_marginTop="11dp"
+               android:layout_below="@+id/textView109"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true">
+
+
+           </FrameLayout>
+
+
+
+           <TextView
+               android:layout_below="@+id/content3"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:text="Tambah Gambar"
+               android:gravity="center_vertical"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:textColor="#0770CD"
+               android:id="@+id/tambahGmbar_"
+               />
+
+           <HorizontalScrollView
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:layout_below="@+id/tambahGmbar_"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:id="@+id/horizontalScrollView">
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <ImageView
+                       android:id="@+id/im1"
+                       android:layout_marginLeft="5dp"
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:layout_marginRight="5dp"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentStart="true"
+                       android:src="@drawable/travelokalogo" />
+
+                   <ImageView
+                       android:id="@+id/im6"
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:layout_marginRight="5dp"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentStart="true"
+                       android:src="@drawable/travelokalogo" />
+
+                   <ImageView
+                       android:id="@+id/im3"
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:layout_marginRight="5dp"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentStart="true"
+                       android:src="@drawable/travelokalogo" />
+
+                   <ImageView
+                       android:id="@+id/im4"
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:layout_marginRight="5dp"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentStart="true"
+                       android:src="@drawable/travelokalogo" />
+
+                   <ImageView
+                       android:id="@+id/im5"
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:layout_marginRight="5dp"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentStart="true"
+                       android:src="@drawable/travelokalogo" />
+
+               </LinearLayout>
+
+
+
+           </HorizontalScrollView>
+
+           <Button
+               android:layout_width="match_parent"
+               android:background="@drawable/button_style"
+               android:textColor="#ffffff"
+               android:text="Simpan"
+               android:layout_marginTop="40dp"
+               android:id="@+id/simpanHotel"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginBottom="20dp"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/horizontalScrollView"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+       </RelativeLayout>
+
+
+   </ScrollView>
+
+
+</RelativeLayout>

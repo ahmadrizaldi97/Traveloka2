@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="165dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/imageView12aaaaaaa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namaHotel_pmk"
+                android:textSize="17dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#000000"
+                android:text="Aryaduta Makassar"
+                android:layout_marginTop="21dp"
+                android:layout_alignTop="@+id/imageView12aaaaaaa"
+                android:layout_toRightOf="@+id/imageView12aaaaaaa"
+                android:layout_toEndOf="@+id/imageView12aaaaaaa"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/bintang111"
+                android:src="@drawable/ic_star"
+                android:layout_below="@+id/namaHotel_pmk"
+                android:layout_alignLeft="@+id/namaHotel_pmk"
+                android:layout_alignStart="@+id/namaHotel_pmk" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/bintang211"
+                android:src="@drawable/ic_star"
+                android:layout_below="@+id/namaHotel_pmk"
+                android:layout_toRightOf="@+id/bintang111"
+                android:layout_toEndOf="@+id/bintang111" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/bintang311"
+                android:src="@drawable/ic_star"
+                android:layout_below="@+id/namaHotel_pmk"
+                android:layout_toRightOf="@+id/bintang211"
+                android:layout_toEndOf="@+id/bintang211" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/bintang411"
+                android:src="@drawable/ic_star"
+                android:layout_below="@+id/namaHotel_pmk"
+                android:layout_toRightOf="@+id/bintang311"
+                android:layout_toEndOf="@+id/bintang311" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/bintang511"
+                android:src="@drawable/ic_star"
+                android:layout_below="@+id/namaHotel_pmk"
+                android:layout_toRightOf="@+id/bintang411"
+                android:layout_toEndOf="@+id/bintang411" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/lokasi"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/bintang111"
+                android:layout_alignLeft="@+id/bintang111"
+                android:layout_alignStart="@+id/bintang111"
+                android:id="@+id/imageView14aa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/lokasihotelaaa"
+                android:layout_marginLeft="5dp"
+                android:text="Makassar, Sulawesi Selatan"
+                android:layout_alignTop="@+id/imageView14aa"
+                android:layout_toRightOf="@+id/imageView14aa"
+                android:layout_toEndOf="@+id/imageView14aa"
+                android:layout_alignBottom="@+id/imageView14aa" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating"
+                android:visibility="invisible"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/imageView14aa"
+                android:layout_alignLeft="@+id/imageView14aa"
+                android:layout_alignStart="@+id/imageView14aa"
+                android:id="@+id/textViaew79a" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8,5/10"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:textColor="#09A154"
+                android:layout_marginLeft="5dp"
+                android:layout_alignBaseline="@+id/textViaew79a"
+                android:layout_alignBottom="@+id/textViaew79a"
+                android:layout_toRightOf="@+id/textViaew79a"
+                android:layout_toEndOf="@+id/textViaew79a"
+                android:id="@+id/textView65a08a" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:text="Lihat Room"
+                android:layout_marginTop="4dp"
+                android:textColor="#ffffff"
+                android:id="@+id/LihatRoom_pmk"
+                android:layout_marginRight="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_below="@+id/textView65a08a"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="com.example.ahmadrizaldi.traveloka.DataPemesan_Hotel">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama lengkap"
+            android:textColor="@color/traveloka"
+            android:id="@+id/textView14H" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView14H"
+            android:inputType="text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/namalengkap_hotel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No. Handphone"
+            android:textColor="@color/traveloka"
+            android:id="@+id/textView15H"
+            android:layout_below="@+id/namalengkap_hotel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView15H"
+            android:layout_alignParentLeft="true"
+            android:inputType="number"
+            android:layout_alignParentStart="true"
+            android:id="@+id/noHP_Hotel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat Email"
+            android:textColor="@color/traveloka"
+            android:id="@+id/textView199H"
+            android:layout_below="@+id/noHP_Hotel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView199H"
+            android:layout_alignParentLeft="true"
+            android:inputType="textEmailAddress"
+            android:layout_alignParentStart="true"
+            android:id="@+id/emailPemesan_hotel"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:textColor="#ffffff"
+            android:text="Selesai"
+            android:id="@+id/simpandatapemesan_hotel"
+            android:layout_below="@+id/emailPemesan_hotel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

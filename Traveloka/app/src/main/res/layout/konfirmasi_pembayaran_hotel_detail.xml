@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.KonfirmasiPembayaranHotelDetail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="280dp"
+                android:text="NAMA HOTEL"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/namaHotelKonf"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView32aaaa2"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. Transaksi"
+                android:textColor="#000000"
+                android:layout_margin="20dp"
+                android:textSize="14dp"
+                android:id="@+id/textView32aaaa2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123456789"
+                android:id="@+id/textView33Hotel"
+                android:layout_below="@+id/textView32s12121"
+                android:layout_alignLeft="@+id/textView32aaaa2"
+                android:layout_alignStart="@+id/textView32aaaa2" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Booking"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:layout_marginRight="19dp"
+                android:id="@+id/textView32s12121"
+                android:layout_alignBaseline="@+id/textView32aaaa2"
+                android:layout_alignBottom="@+id/textView32aaaa2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thu, 19/10/2017"
+                android:id="@+id/textView40a1"
+                android:layout_above="@+id/namaHotelKonf"
+                android:layout_alignRight="@+id/textView32s12121"
+                android:layout_alignEnd="@+id/textView32s12121" />
+
+            <TextView
+                android:layout_width="280dp"
+                android:text="NAMA ROOM"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/namaRoomKonf"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/namaHotelKonf"
+                android:layout_centerHorizontal="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/dkjadhjajda"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/namaRoomKonf"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="280dp"
+                android:text="DATA PEMESAN"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/djaihsduyasduasdaudabsdahsudyasd"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/dkjadhjajda"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="160dp"
+                android:background="#E6EAED"
+                android:layout_below="@+id/djaihsduyasduasdaudabsdahsudyasd"
+                android:id="@+id/textView38adajhdad" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Nama : "
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:id="@+id/textView32aaaaa2"
+                android:layout_marginTop="39dp"
+                android:layout_alignTop="@+id/textView38adajhdad"
+                android:layout_alignLeft="@+id/textView33Hotel"
+                android:layout_alignStart="@+id/textView33Hotel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team 1"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:id="@+id/namaKonfHotel"
+                android:layout_marginLeft="7dp"
+                android:layout_alignBaseline="@+id/textView32aaaaa2"
+                android:layout_alignBottom="@+id/textView32aaaaa2"
+                android:layout_toRightOf="@+id/textView32aaaaa2"
+                android:layout_toEndOf="@+id/textView32aaaaa2" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Email : "
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView32aaaaa2a"
+                android:layout_below="@+id/textView32aaaaa2"
+                android:layout_alignLeft="@+id/textView32aaaaa2"
+                android:layout_alignStart="@+id/textView32aaaaa2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="team1@gmail.com"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:id="@+id/emailKonfHotel"
+                android:layout_alignBaseline="@+id/textView32aaaaa2a"
+                android:layout_alignBottom="@+id/textView32aaaaa2a"
+                android:layout_alignLeft="@+id/namaKonfHotel"
+                android:layout_alignStart="@+id/namaKonfHotel" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="No. Telepon : "
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView32aaaaas2"
+                android:layout_below="@+id/textView32aaaaa2a"
+                android:layout_alignLeft="@+id/textView32aaaaa2a"
+                android:layout_alignStart="@+id/textView32aaaaa2a" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="082344466664"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:id="@+id/noHpKonf"
+                android:layout_alignBaseline="@+id/textView32aaaaas2"
+                android:layout_alignBottom="@+id/textView32aaaaas2"
+                android:layout_alignLeft="@+id/emailKonfHotel"
+                android:layout_alignStart="@+id/emailKonfHotel" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/aadkjadhjajda"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView38adajhdad"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="280dp"
+                android:text="PEMBAYARAN"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/djaihsduyasduasdaudabsdahsuadyasd"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/aadkjadhjajda"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="120dp"
+                android:background="#E6EAED"
+                android:layout_below="@+id/djaihsduyasduasdaudabsdahsuadyasd"
+                android:id="@+id/textView38adajhdadaa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Pembayaran"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:id="@+id/textView32aaaaaa2"
+                android:layout_marginTop="30dp"
+                android:layout_alignTop="@+id/textView38adajhdadaa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Rp. 1.230.111"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/dha1721872"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/textView32aaaaaa2"
+                android:layout_centerHorizontal="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/aadkjadhjajada"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView38adajhdadaa"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="280dp"
+                android:text="BUKTI PEMBAYARAN"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/djaihsduyasduasdaudabsdahsuadyasdad"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/aadkjadhjajada"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_below="@+id/djaihsduyasduasdaudabsdahsuadyasdad"
+                android:layout_width="330dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="330dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/buktiPembayaranHotelkonf"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/travelokalogo"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konfirmasi"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/buktiPembayaranHotelkonf"
+                android:id="@+id/konfirmasi_book_hotel_konf"
+                android:background="@drawable/button_style"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

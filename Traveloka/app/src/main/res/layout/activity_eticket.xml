@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6EAED"
+    tools:context="com.example.ahmadrizaldi.traveloka.ETicket">
+    
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="90dp"
+               android:id="@+id/textView44"
+               android:background="#ffffff"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Kode Booking Pesawat (PNR)"
+               android:textSize="15dp"
+               android:layout_marginLeft="19dp"
+               android:layout_marginStart="19dp"
+               android:layout_marginTop="15dp"
+               android:id="@+id/textView45"
+               android:layout_alignTop="@+id/textView44"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="A12B34"
+               android:layout_marginTop="5dp"
+               android:textColor="#0770CD"
+               android:textSize="25dp"
+               android:layout_below="@+id/textView45"
+               android:layout_alignLeft="@+id/textView45"
+               android:layout_alignStart="@+id/textView45"
+               android:id="@+id/textView46" />
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Jadwal Penerbangan"
+               android:textStyle="bold"
+               android:textSize="16dp"
+               android:layout_marginTop="21dp"
+               android:id="@+id/textView10s"
+               android:layout_below="@+id/textView44"
+               android:layout_alignLeft="@+id/textView46"
+               android:layout_alignStart="@+id/textView46"
+               android:layout_marginBottom="7dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="250dp"
+               android:background="#ffffff"
+               android:id="@+id/textView48"
+               android:layout_below="@+id/textView10s"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Garuda GA123"
+               android:textSize="16dp"
+               android:layout_marginBottom="7dp"
+               android:textStyle="bold"
+               android:textColor="#000000"
+               android:layout_marginTop="16dp"
+               android:layout_alignTop="@+id/textView48"
+               android:layout_alignLeft="@+id/textView10s"
+               android:layout_alignStart="@+id/textView10s"
+               android:id="@+id/textView49" />
+
+           <ImageView
+               android:layout_width="60dp"
+               android:layout_height="20dp"
+               android:scaleType="fitXY"
+               android:id="@+id/logoMaskapaiG"
+               android:src="@drawable/garudalogo"
+               android:layout_marginLeft="10dp"
+               android:layout_alignTop="@+id/textView49"
+               android:layout_toRightOf="@+id/textView49"
+               android:layout_toEndOf="@+id/textView49" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Economy Class"
+               android:textSize="13dp"
+               android:textColor="#000000"
+               android:id="@+id/kelas_etkt"
+               android:layout_below="@+id/textView49"
+               android:layout_alignLeft="@+id/textView49"
+               android:layout_alignStart="@+id/textView49" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="SUB"
+               android:textStyle="bold"
+               android:textSize="16dp"
+               android:textColor="#000000"
+               android:id="@+id/darimana_etkt"
+               android:layout_marginTop="13dp"
+               android:layout_below="@+id/kelas_etkt"
+               android:layout_toRightOf="@+id/textView10s"
+               android:layout_toEndOf="@+id/textView10s" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="01:15"
+               android:textStyle="bold"
+               android:textSize="16dp"
+               android:textColor="#000000"
+               android:id="@+id/jamBerangkat111"
+               android:layout_alignBaseline="@+id/darimana_etkt"
+               android:layout_alignBottom="@+id/darimana_etkt"
+               android:layout_alignLeft="@+id/kelas_etkt"
+               android:layout_alignStart="@+id/kelas_etkt" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Hasanuddin"
+               android:textColor="#000000"
+               android:id="@+id/namaBandara"
+               android:layout_marginTop="5dp"
+               android:layout_below="@+id/darimana_etkt"
+               android:layout_alignLeft="@+id/darimana_etkt"
+               android:layout_alignStart="@+id/darimana_etkt" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" "
+               android:textSize="16dp"
+               android:textColor="#000000"
+               android:id="@+id/Transit"
+               android:layout_marginTop="21dp"
+               android:layout_below="@+id/namaBandara"
+               android:layout_alignLeft="@+id/namaBandara"
+               android:layout_alignStart="@+id/namaBandara" />
+
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="KNO"
+               android:textStyle="bold"
+               android:textSize="16dp"
+               android:textColor="#000000"
+               android:id="@+id/kemana_etkt"
+               android:layout_marginTop="24dp"
+               android:layout_below="@+id/Transit"
+               android:layout_alignRight="@+id/darimana_etkt"
+               android:layout_alignEnd="@+id/darimana_etkt" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="07:05"
+               android:textStyle="bold"
+               android:textSize="16dp"
+               android:textColor="#000000"
+               android:id="@+id/jamTiba111"
+               android:layout_centerVertical="true"
+               android:layout_alignLeft="@+id/textView10ss"
+               android:layout_alignStart="@+id/textView10ss" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Sentani"
+               android:textColor="#000000"
+               android:id="@+id/namaBandara2"
+               android:layout_below="@+id/kemana_etkt"
+               android:layout_alignLeft="@+id/kemana_etkt"
+               android:layout_alignStart="@+id/kemana_etkt" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Data Penumpang"
+               android:textStyle="bold"
+               android:layout_marginLeft="20dp"
+               android:textSize="17dp"
+               android:layout_marginBottom="7dp"
+               android:layout_marginTop="20dp"
+               android:id="@+id/textView10ss"
+               android:layout_below="@+id/textView48"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="140dp"
+               android:background="#ffffff"
+               android:layout_below="@+id/textView10ss"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:id="@+id/textView74" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1. Ahmad Rizaldi"
+               android:textSize="16dp"
+               android:textStyle="bold"
+               android:id="@+id/namaPenumpang_etkt"
+               android:layout_below="@+id/textView10ss"
+               android:layout_alignLeft="@+id/textView10ss"
+               android:layout_alignStart="@+id/textView10ss"
+               android:layout_marginTop="23dp" />
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/button_style"
+               android:textColor="#ffffff"
+               android:text="Reschedule"
+               android:id="@+id/reschedule"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginTop="20dp"
+               android:layout_marginBottom="20dp"
+               android:layout_below="@+id/textView74"
+               android:layout_centerHorizontal="true" />
+
+       </RelativeLayout>
+
+   </ScrollView>
+
+</RelativeLayout>

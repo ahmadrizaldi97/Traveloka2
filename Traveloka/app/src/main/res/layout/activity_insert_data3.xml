@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6EAED"
+    tools:context="com.example.ahmadrizaldi.traveloka.InsertData3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Pesanan Anda"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/textView3"
+                android:background="#ffffff"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makassar - Jakarta"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/darimanakemana_rvw"
+                android:layout_alignTop="@+id/textView3"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rab, 25/10/2017"
+                android:textStyle="bold"
+                android:layout_marginTop="11dp"
+                android:layout_below="@+id/darimanakemana_rvw"
+                android:layout_alignLeft="@+id/darimanakemana_rvw"
+                android:layout_alignStart="@+id/darimanakemana_rvw"
+                android:id="@+id/textView4" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:src="@drawable/citilink"
+                android:layout_marginTop="14dp"
+                android:layout_below="@+id/textView4"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Citilink"
+                android:textSize="17dp"
+                android:layout_alignTop="@+id/imageView2"
+                android:layout_toRightOf="@+id/imageView2"
+                android:layout_toEndOf="@+id/imageView2"
+                android:id="@+id/textView5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detail"
+                android:textStyle="bold"
+                android:layout_marginRight="20dp"
+                android:textSize="15dp"
+                android:textColor="#0770CD"
+                android:layout_alignTop="@+id/textView4"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07:00 - 08:00"
+                android:layout_alignBaseline="@+id/textView5"
+                android:layout_alignBottom="@+id/textView5"
+                android:layout_alignRight="@+id/textView6"
+                android:layout_alignEnd="@+id/textView6"
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPG - JKTA"
+                android:id="@+id/darimanakemana_rvw2"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView5"
+                android:layout_alignRight="@+id/textView7"
+                android:layout_alignEnd="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Economy Class"
+                android:id="@+id/kelas_rvw"
+                android:layout_alignBaseline="@+id/darimanakemana_rvw2"
+                android:layout_alignBottom="@+id/darimanakemana_rvw2"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignStart="@+id/imageView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Pemesan"
+                android:textStyle="bold"
+                android:textSize="17dp"
+
+                android:layout_below="@+id/textView3"
+                android:layout_alignLeft="@+id/kelas_rvw"
+                android:layout_alignStart="@+id/kelas_rvw"
+                android:layout_marginTop="22dp"
+                android:id="@+id/textView10" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="7dp"
+                android:text="Ahmad Rizaldi"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:background="#ffffff"
+                android:id="@+id/textView11" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubah"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#0770CD"
+                android:layout_alignBaseline="@+id/textView11"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_alignRight="@+id/darimanakemana_rvw2"
+                android:layout_alignEnd="@+id/darimanakemana_rvw2"
+                android:id="@+id/textView16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#F6F6F6"
+                android:layout_below="@+id/textView11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor Telepon"
+                android:layout_marginTop="13dp"
+                android:id="@+id/textView15"
+                android:layout_below="@+id/textView11"
+                android:layout_alignLeft="@+id/textView10"
+                android:layout_alignStart="@+id/textView10" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="082344466665"
+                android:gravity="right"
+                android:layout_alignBaseline="@+id/textView15"
+                android:layout_alignBottom="@+id/textView15"
+                android:layout_alignRight="@+id/textView16"
+                android:layout_alignEnd="@+id/textView16"
+                android:id="@+id/textView18" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:text="ahmadrizaldi97.jr@gmail.com"
+                android:layout_alignBaseline="@+id/textView17"
+                android:layout_alignBottom="@+id/textView17"
+                android:layout_alignRight="@+id/textView18"
+                android:layout_alignEnd="@+id/textView18"
+                android:id="@+id/emailPemesannaaaa"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_below="@+id/textView15"
+                android:layout_alignLeft="@+id/textView15"
+                android:layout_alignStart="@+id/textView15"
+                android:layout_marginTop="18dp"
+                android:id="@+id/textView17" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:hint="Nama Penumpang 1 "
+                android:paddingLeft="20dp"
+                android:id="@+id/nama3Penumpang"
+                android:layout_below="@+id/textView12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:hint="Nama Penumpang 2"
+                android:paddingLeft="20dp"
+                android:id="@+id/nama3Penumpang2"
+                android:layout_below="@+id/nama3Penumpang"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:hint="Nama Penumpang 3"
+                android:paddingLeft="20dp"
+                android:id="@+id/nama3Penumpang3"
+                android:layout_below="@+id/nama3Penumpang2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_marginTop="22dp"
+                android:layout_below="@+id/nama3Penumpang3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="Rincian Pembayaran"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:text="Rp. 1.000.000"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:id="@+id/total"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/textView13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:textColor="#ffffff"
+                android:id="@+id/CariPenerbanganssss"
+                android:layout_below="@+id/total"
+                android:text="Lanjutkan"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

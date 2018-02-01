@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6EAED"
+    tools:context="com.example.ahmadrizaldi.traveloka.Review_R">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Pesanan Anda"
+                android:id="@+id/textViewssR" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/textView3ssR"
+                android:layout_marginTop="3dp"
+                android:background="#ffffff"
+                android:layout_below="@+id/textViewssR"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#F6F6F6"
+                android:id="@+id/textView52R"
+                android:layout_alignBaseline="@+id/textView3ssR"
+                android:layout_alignBottom="@+id/textView3ssR"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView51R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garuda GA123"
+                android:layout_alignTop="@+id/textView3ssR"
+                android:layout_alignLeft="@+id/textViewssR"
+                android:layout_alignStart="@+id/textViewssR"
+                android:layout_marginTop="11dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/textView51R"
+                android:layout_toRightOf="@+id/textView51R"
+                android:layout_toEndOf="@+id/textView51R"
+                android:layout_marginLeft="12dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/garudalogo"
+                android:layout_marginStart="12dp"
+                android:layout_alignBottom="@+id/textView51R"
+                android:id="@+id/imageView6R" />
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business"
+                android:id="@+id/textView54R"
+                android:layout_alignTop="@+id/imageView6R"
+                android:layout_alignRight="@+id/textView59sR"
+                android:layout_alignEnd="@+id/textView59sR" />
+<!---->
+            <TextView
+                android:layout_width="50dp"
+                android:background="#F6F6F6"
+                android:layout_height="30dp"
+                android:text="DJJ"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView50R"
+                android:layout_below="@+id/textView52R"
+                android:layout_alignLeft="@+id/textView51R"
+                android:layout_alignStart="@+id/textView51R" />
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jayapura"
+                android:paddingLeft="20dp"
+                android:textSize="17dp"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:id="@+id/textView53R"
+                android:layout_alignTop="@+id/textView50R"
+                android:layout_toRightOf="@+id/textView50R"
+                android:layout_toEndOf="@+id/textView50R" />
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sentani"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/textView50R"
+                android:layout_alignLeft="@+id/textView50R"
+                android:layout_alignStart="@+id/textView50R"
+                android:id="@+id/textView56R" />
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07:45"
+                android:layout_alignTop="@+id/textView53R"
+                android:layout_alignRight="@+id/textView54R"
+                android:layout_alignEnd="@+id/textView54R"
+                android:id="@+id/textView55R" />
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31 Okt"
+                android:layout_marginTop="3dp"
+                android:layout_below="@+id/textView55R"
+                android:layout_alignRight="@+id/textView55R"
+                android:layout_alignEnd="@+id/textView55R"
+                android:id="@+id/textView57R" />
+<!---->
+            <TextView
+                android:layout_width="50dp"
+                android:background="#F6F6F6"
+                android:layout_height="30dp"
+                android:text="WMX"
+                android:gravity="center"
+                android:layout_marginTop="42dp"
+                android:id="@+id/textView50sR"
+                android:layout_below="@+id/textView56R"
+                android:layout_alignLeft="@+id/textView56R"
+                android:layout_alignStart="@+id/textView56R" />
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wamena"
+                android:textSize="17dp"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:id="@+id/textView53sR"
+                android:layout_alignTop="@+id/textView50sR"
+                android:layout_alignLeft="@+id/textView53R"
+                android:layout_alignStart="@+id/textView53R"
+                android:layout_alignRight="@+id/textView53R"
+                android:layout_alignEnd="@+id/textView53R" />
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:45"
+                android:id="@+id/textView55sR"
+                android:layout_alignTop="@+id/textView53sR"
+                android:layout_alignRight="@+id/textView57R"
+                android:layout_alignEnd="@+id/textView57R" />
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31 Okt"
+                android:layout_below="@+id/textView55sR"
+                android:layout_alignRight="@+id/textView55sR"
+                android:layout_alignEnd="@+id/textView55sR"
+                android:id="@+id/textView58R" />
+
+<!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sentani"
+                android:layout_marginTop="5dp"
+                android:id="@+id/textView56sR"
+                android:layout_below="@+id/textView58R"
+                android:layout_alignLeft="@+id/textView50sR"
+                android:layout_alignStart="@+id/textView50sR" />
+<!---->
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Penumpang"
+                android:layout_below="@+id/textView3ssR"
+                android:id="@+id/textViewsssR" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/textView3sssR"
+                android:layout_marginTop="3dp"
+                android:background="#ffffff"
+                android:layout_below="@+id/textViewsssR"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <!---->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tn. Ahmad Rizaldi"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignTop="@+id/textView3sssR"
+                android:layout_alignLeft="@+id/textViewsssR"
+                android:layout_alignStart="@+id/textViewsssR"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView59sR" />
+<!---->
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text=""
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/textView59sR"
+                android:layout_alignLeft="@+id/textView59sR"
+                android:layout_alignStart="@+id/textView59sR"
+                android:id="@+id/textView60ssR" />
+<!---->
+            <TextView
+                android:layout_width="50dp"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/beratbagasiR"
+                android:layout_alignBaseline="@+id/textView60ssR"
+                android:layout_alignBottom="@+id/textView60ssR"
+                android:layout_alignRight="@+id/textView58R"
+                android:layout_alignEnd="@+id/textView58R" />
+
+            <!--Penumpang-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#A5DBFF"
+                android:id="@+id/dabdjhahdR"
+                android:layout_below="@+id/textView3sssR"/>
+
+
+<!---->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#1878C2"
+                android:textSize="15dp"
+                android:layout_margin="20dp"
+                android:text="Selesaikan transaksi dan akun (Ahmadrizaldi97.jr@gmail.com) akan mendapatkan 100 Poin"
+                android:layout_below="@+id/textView3sssR"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="24dp"
+                android:id="@+id/textView64R" />
+<!---->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/dabdjhahdR"
+                android:background="#E6EAED"
+                android:id="@+id/dadaEE"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:textColor="#ffffff"
+                android:layout_marginRight="20dp"
+                android:id="@+id/lanjutkepembayaranR"
+                android:text="Lanjutkan"
+                android:layout_below="@+id/dabdjhahdR"
+                android:layout_alignLeft="@+id/textView64R"
+                android:layout_alignStart="@+id/textView64R"
+                android:layout_marginTop="15dp" />
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

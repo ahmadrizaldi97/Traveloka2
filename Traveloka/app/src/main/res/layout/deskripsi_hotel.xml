@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="com.example.ahmadrizaldi.traveloka.model.DeskripsiHotel">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Hotel"
+        android:textStyle="bold"
+        android:id="@+id/textView108" />
+
+    <EditText
+        android:id="@+id/deskripsi_H"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:ems="20"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="Deskripsi Hotel"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/textView108"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:id="@+id/simpanDeskripsi__"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_style"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

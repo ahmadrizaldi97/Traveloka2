@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="com.example.ahmadrizaldi.traveloka.EditFlight_Maskapai">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/paaaa"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:src="@drawable/lionairlogo"
+                android:id="@+id/GambarTambahEdit"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lion Air"
+                android:id="@+id/maskapai_namaEdit"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="23dp"
+                android:layout_above="@+id/dadadEdit"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignLeft="@+id/dadadaaaaaaaaaEdit"
+                android:layout_alignStart="@+id/dadadaaaaaaaaaEdit" />
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/GambarTambahEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flight Id"
+                android:id="@+id/dadadEdit"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/flightid_mskpEdit"
+                android:layout_marginTop="7dp"
+                android:text="GA123"
+                android:focusable="false"
+                android:layout_below="@+id/dadadEdit"
+                >
+
+            </EditText>
+
+
+            <TextView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:text="From"
+                android:layout_marginTop="7dp"
+                android:id="@+id/dadadaaaaEdit"
+                android:layout_below="@+id/flightid_mskpEdit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/darimana_mskpEdit"
+                android:text="Jakarta (JKTA)"
+                android:focusable="false"
+                android:layout_below="@+id/dadadaaaaEdit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="To"
+                android:id="@+id/dadadaEdit"
+                android:layout_above="@+id/darimana_mskpEdit"
+                android:layout_toRightOf="@+id/darimana_mskpEdit"
+                android:layout_toEndOf="@+id/darimana_mskpEdit"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp" />
+
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/kemana_mskpEdit"
+                android:text="Surabaya (SUB)"
+                android:focusable="false"
+                android:layout_below="@+id/dadadaEdit"
+                android:layout_alignLeft="@+id/dadadaEdit"
+                android:layout_alignStart="@+id/dadadaEdit"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal"
+                android:id="@+id/textView129Edur"
+                android:layout_below="@+id/darimana_mskpEdit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:layout_alignRight="@+id/dadadaaaaEdit"
+                android:layout_alignEnd="@+id/dadadaaaaEdit" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tanggal_berangkat_mskpEdit"
+                android:text="Kamis, 25 Okt 2017"
+                android:focusable="false"
+                android:layout_below="@+id/textView129Edur"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Jam Berangkat"
+                android:id="@+id/ham"
+                android:layout_below="@+id/tanggal_berangkat_mskpEdit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Jam Tiba"
+                android:id="@+id/tibEdit"
+                android:layout_below="@+id/tanggal_berangkat_mskpEdit"
+                android:layout_alignLeft="@+id/kemana_mskpEdit"
+                android:layout_alignStart="@+id/kemana_mskpEdit" />
+
+
+
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/jamberangkat_mskpEdit"
+                android:text="00:00"
+                android:focusable="false"
+                android:layout_below="@+id/ham"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/ham"
+                android:layout_alignEnd="@+id/ham" />
+
+            <EditText
+
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/durasiEdit"
+                android:text="00:00"
+                android:focusable="false"
+                android:layout_below="@+id/tibEdit"
+                android:layout_alignLeft="@+id/tibEdit"
+                android:layout_alignStart="@+id/tibEdit" />
+            <!--</RelativeLayout>-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuota"
+                android:layout_marginBottom="7dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:id="@+id/dadadaaaaaaaEdit"
+                android:layout_below="@+id/jamberangkat_mskpEdit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Economy"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/dadadaaaaaaaaEdit"
+                android:layout_below="@+id/dadadaaaaaaaEdit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Business"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/dadadaaaaaaaaaEdit"
+                android:layout_alignBaseline="@+id/dadadaaaaaaaaEdit"
+                android:layout_alignBottom="@+id/dadadaaaaaaaaEdit"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="First Class"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/dadadaaaaaaaaaaEdit"
+                android:layout_alignBaseline="@+id/dadadaaaaaaaaaEdit"
+                android:layout_alignBottom="@+id/dadadaaaaaaaaaEdit"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kuotaeconomyEdit"
+                android:hint="Economy"
+                android:gravity="center"
+                android:inputType="number"
+                android:layout_below="@+id/dadadaaaaaaaaEdit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/dadadaaaaaaaaEdit"
+                android:layout_alignEnd="@+id/dadadaaaaaaaaEdit" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/kuotabusniessEdit"
+                android:hint="Business"
+                android:gravity="center"
+                android:layout_below="@+id/dadadaaaaaaaaaEdit"
+                android:layout_alignLeft="@+id/dadadaaaaaaaaaEdit"
+                android:layout_alignStart="@+id/dadadaaaaaaaaaEdit"
+                android:layout_alignRight="@+id/dadadaaaaaaaaaEdit"
+                android:layout_alignEnd="@+id/dadadaaaaaaaaaEdit" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/kuotafirstclassEdit"
+                android:hint="First"
+                android:gravity="center"
+                android:layout_below="@+id/dadadaaaaaaaaaaEdit"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignLeft="@+id/dadadaaaaaaaaaaEdit"
+                android:layout_alignStart="@+id/dadadaaaaaaaaaaEdit" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Harga Economy Class"
+                android:id="@+id/aiaiuauEdit"
+                android:layout_below="@+id/kuotaeconomyEdit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hargaeconomyclassEdit"
+                android:inputType="number"
+                android:layout_below="@+id/aiaiuauEdit"
+                android:hint="Harga Economy Class"/>
+
+
+            <TextView
+                android:id="@+id/akaakjdaydjkalEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga Business Class"
+                android:layout_below="@+id/hargaeconomyclassEdit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/hargabusinessclassEdit"
+                android:hint="Harga Business Class"
+                android:layout_below="@+id/akaakjdaydjkalEdit"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:id="@+id/dakjdjhajhda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hargabusinessclassEdit"
+                android:text="Harga First Class"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_below="@+id/dakjdjhajhda"
+                android:id="@+id/hargafirstclassEdit"
+                android:hint="Harga First Class"/>
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:id="@+id/dakjdjhajhdaaEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hargafirstclassEdit"
+                android:text="Jumlah Max. Reschedule"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_below="@+id/dakjdjhajhdaaEdit"
+                android:id="@+id/jumlahMaximalRescheduleEdit"
+                android:hint="Jumlah Maximal Reschedule"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Penerbangan"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/jumlahMaximalRescheduleEdit"
+                android:id="@+id/tambahPenerbanganEdit"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_style"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

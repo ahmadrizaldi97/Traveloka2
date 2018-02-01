@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.example.ahmadrizaldi.traveloka.FasilitasUtamaHotel">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/q1"
+        android:text="Wifi"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/q2"
+        android:text="Kolam Renang"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/q3"
+        android:text="Parkir"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/q4"
+        android:text="Restoran"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/q5"
+        android:text="Lift"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/q6"
+        android:text="Pusat Kebugaran"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/q7"
+        android:text="Ruang Rapat"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/q8"
+        android:text="Antar Jemput"/>
+
+    <Button
+        android:id="@+id/qSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:text="Simpan"
+        android:layout_marginTop="80dp"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>

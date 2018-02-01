@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.ahmadrizaldi.traveloka.HomeMaskapai">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="Garuda Indonesia"
+        android:textSize="30dp"
+
+        android:id="@+id/MS_welcome"
+        android:textColor="#ffffff"
+        android:paddingTop="170dp"
+        android:gravity="center"
+        android:background="@mipmap/sunset"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manajemen Penerbangan" />
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:id="@+id/MS_tambahID"
+        android:textColor="#0770CD"
+        android:gravity="center_vertical"
+        android:text="     Tambah Flight ID"
+        android:drawableLeft="@drawable/fight_"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:id="@+id/MS_tambahPenerbangan"
+        android:textColor="#0770CD"
+        android:gravity="center_vertical"
+        android:text="     Tambah Penerbangan"
+        android:drawableLeft="@drawable/tambahflighticon"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ffffff"
+                android:paddingLeft="20dp"
+                android:id="@+id/MS_DataPenerbanganoo"
+                android:textColor="#0770CD"
+                android:gravity="center_vertical"
+                android:text="     Daftar Penerbangan"
+                android:drawableLeft="@drawable/ic_planecopy"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transaksi" />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ffffff"
+        android:id="@+id/MS_DataReservasi"
+        android:paddingLeft="20dp"
+        android:textColor="#0770CD"
+        android:gravity="center_vertical"
+        android:text="     Data Reservasi"
+        android:drawableLeft="@drawable/flight_2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ffffff"
+                android:id="@+id/MS_Reschedule"
+                android:paddingLeft="20dp"
+                android:textColor="#0770CD"
+                android:gravity="center_vertical"
+                android:text="     Reschedule"
+                android:drawableLeft="@drawable/reschedule"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lainnya" />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#ffffff"
+                android:id="@+id/MS_Exit"
+                android:paddingLeft="20dp"
+                android:textColor="#0770CD"
+                android:gravity="center_vertical"
+                android:text="     Keluar"
+                android:drawableLeft="@drawable/exit"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    
+
+</LinearLayout>

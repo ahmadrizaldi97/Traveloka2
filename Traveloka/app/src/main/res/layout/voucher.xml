@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6EAED"
+    tools:context="com.example.ahmadrizaldi.traveloka.Voucher">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Detail Pesanan"
+                android:id="@+id/textView823" />
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:id="@+id/textView3090"
+                android:background="#ffffff"
+                android:layout_below="@+id/textView823"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+            android:layout_width="320dp"
+            android:text="NAMA"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/garudalogo"
+            android:id="@+id/namaPemesanV"
+            android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/textView3090"
+                android:layout_alignLeft="@+id/textView823"
+                android:layout_alignStart="@+id/textView823" />
+
+            <TextView
+                android:id="@+id/status_booking_HotelV"
+                android:layout_width="150dp"
+                android:layout_height="22dip"
+                android:background="#00A651"
+                android:layout_marginTop="7dp"
+                android:ellipsize="marquee"
+                android:gravity="fill_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Voucher #1234567890"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:layout_below="@+id/namaPemesanV"
+                android:layout_alignLeft="@+id/namaPemesanV"
+                android:layout_alignStart="@+id/namaPemesanV" />
+
+            <TextView
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:id="@+id/Booka"
+                android:text="Booked payable by traveloka"
+                android:layout_below="@+id/status_booking_HotelV"
+                android:layout_alignLeft="@+id/status_booking_HotelV"
+                android:layout_alignStart="@+id/status_booking_HotelV" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/dkjadhjajda"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/Booka"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bulan"
+                android:id="@+id/imageView7"
+                android:layout_below="@+id/dkjadhjajda"
+                android:layout_alignRight="@+id/Booka"
+                android:layout_alignEnd="@+id/Booka" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Bookaa"
+                android:text="Check-in"
+                android:layout_below="@+id/dkjadhjajda"
+                android:layout_alignLeft="@+id/Booka"
+                android:layout_alignStart="@+id/Booka"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tanggalCheckInV"
+                android:text="Thu, 05/02/2017"
+                android:textSize="15dp"
+                android:layout_marginTop="7dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/Bookaa"
+                android:layout_alignLeft="@+id/Bookaa"
+                android:layout_alignStart="@+id/Bookaa" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Bookaaa"
+                android:text="Check-out"
+                android:layout_alignBaseline="@+id/Bookaa"
+                android:layout_alignBottom="@+id/Bookaa"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="18dp" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tanggalCheckOutV"
+                android:text="Thu, 04/02/2017"
+                android:textColor="#000000"
+                android:gravity="right"
+                android:layout_marginTop="7dp"
+                android:textSize="17dp"
+                android:layout_below="@+id/Bookaaa"
+                android:layout_alignRight="@+id/Bookaaa"
+                android:layout_alignEnd="@+id/Bookaaa" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/jumlahMalamV"
+                android:text="1 Malam"
+                android:gravity="center"
+                android:layout_below="@+id/imageView7"
+                android:layout_toLeftOf="@+id/tanggalCheckOutV"
+                android:layout_toStartOf="@+id/tanggalCheckOutV"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/jumlahKamarV"
+                android:text="1 Kamar"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_below="@+id/jumlahMalamV"
+                android:layout_alignRight="@+id/jumlahMalamV"
+                android:layout_alignEnd="@+id/jumlahMalamV" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Informasi Hotel"
+                android:id="@+id/textViewa823aa"
+                android:layout_below="@+id/textView3090"/>
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="381dp"
+                android:id="@+id/textView309a0"
+                android:background="#ffffff"
+                android:layout_below="@+id/textViewa823aa"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="320dp"
+                android:text="NAMA HOTEL"
+                android:textColor="#000000"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/namaHotelV"
+                android:layout_marginTop="32dp"
+                android:layout_alignTop="@+id/textView309a0"
+                android:layout_alignLeft="@+id/textViewa823aa"
+                android:layout_alignStart="@+id/textViewa823aa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alamatV"
+                android:text="Jl. Jalan"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/namaHotelV"
+                android:layout_alignLeft="@+id/namaHotelV"
+                android:layout_alignStart="@+id/namaHotelV" />
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/lihatHotelDetailV"
+                android:text=" LIHAT HOTEL DETAIL"
+                android:textColor="#096ECA"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/hotellogoku"
+                android:layout_below="@+id/alamatV"
+                android:layout_alignRight="@+id/tanggalCheckOutV"
+                android:layout_alignEnd="@+id/tanggalCheckOutV" />
+
+            <FrameLayout
+                android:id="@+id/content5"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_below="@+id/lihatHotelDetailV"
+                android:layout_marginTop="5dp">
+
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Kamar"
+                android:id="@+id/textViewaa823aa"
+                android:layout_below="@+id/textView309a0"/>
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/textView30a90"
+                android:background="#ffffff"
+                android:layout_below="@+id/textViewaa823aa"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="320dp"
+                android:text="Kamar"
+                android:textColor="#000000"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/namaKamarvV"
+                android:layout_marginTop="30dp"
+                android:layout_alignTop="@+id/textView30a90"
+                android:layout_alignLeft="@+id/textViewaa823aa"
+                android:layout_alignStart="@+id/textViewaa823aa" />
+
+            <TextView
+                android:layout_width="320dp"
+                android:text="1 Kamar"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/keteranganV"
+                android:layout_below="@+id/namaKamarvV"
+                android:layout_alignLeft="@+id/namaKamarvV"
+                android:layout_alignStart="@+id/namaKamarvV" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Catatan Penting"
+                android:id="@+id/textViewaa823aaa"
+                android:layout_below="@+id/textView30a90"/>
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/textView30a9a0"
+                android:background="#A5DBFF"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/textViewaa823aaa"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="320dp"
+                android:text="ABCDEFG HIJKLMN OPRST UVWX"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/catatanPentingV"
+                android:layout_marginTop="14dp"
+                android:layout_alignTop="@+id/textView30a9a0"
+                android:layout_alignLeft="@+id/textViewaa823aaa"
+                android:layout_alignStart="@+id/textViewaa823aaa" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:text="SELENGKAPNYA"
+                android:textColor="#0770CD"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garudalogo"
+                android:id="@+id/selengkapnyacatatanPentingV"
+                android:layout_marginTop="44dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/catatanPentingV"
+                android:layout_alignLeft="@+id/catatanPentingV"
+                android:layout_alignStart="@+id/catatanPentingV" />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

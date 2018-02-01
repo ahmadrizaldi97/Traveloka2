@@ -1,0 +1,141 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="160dp" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:id="@+id/lin8"
+            android:layout_below="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+
+            <Button
+                android:id="@+id/cariPesawat"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:background="@drawable/card_style"
+                android:drawableTop="@drawable/ic_planecopy"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:textSize="11dp"
+                android:paddingRight="10dp"
+                android:paddingTop="14dp"
+                android:text="\nCari Tiket"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/CariHotel"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/card_style"
+                android:drawableTop="@drawable/ic_hotelcopy"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="14dp"
+                android:text="\nCari hotel"
+                android:textSize="11dp"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/Kereta"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/card_style"
+                android:drawableTop="@drawable/keretacopy"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="14dp"
+                android:textSize="11dp"
+                android:text="\nCari Kereta"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:gravity="center"
+            android:layout_below="@+id/lin8">
+
+
+            <Button
+            android:id="@+id/FlightandHotel"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:background="@drawable/card_style"
+            android:drawableTop="@drawable/pesawathotelcopy"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="14dp"
+                android:layout_marginRight="10dp"
+            android:textSize="11dp"
+            android:text="\nPesawat + Hotel"
+            android:textColor="#000000" />
+
+            <Button
+            android:id="@+id/pulsa"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+                android:layout_marginRight="10dp"
+            android:background="@drawable/card_style"
+            android:drawableTop="@drawable/pulsadantiketcopy"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="14dp"
+            android:textSize="11dp"
+            android:text="\nPulsa + paket"
+            android:textColor="#000000" />
+
+            <Button
+            android:id="@+id/aktivasi"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:background="@drawable/card_style"
+            android:drawableTop="@drawable/aktivitascopy"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="14dp"
+            android:textSize="11dp"
+            android:text="\nAktivasi"
+            android:textColor="#000000" />
+
+
+        </LinearLayout>
+        
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

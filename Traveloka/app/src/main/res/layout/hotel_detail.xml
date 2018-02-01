@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ahmadrizaldi.traveloka.HotelDetail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/view_pager"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+            </ImageView>
+
+
+            <HorizontalScrollView
+                android:id="@+id/dddd"
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/view_pager">
+
+                <LinearLayout
+                    android:id="@+id/container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal" >
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/gt1"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/ic_hotel"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/gt2"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ic_hotel"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/gt3"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ic_hotel"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/gt4"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ic_hotel"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/gt5"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ic_hotel"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/linePutih"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="#dddddd"
+                android:layout_below="@+id/dddd"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/dddd"
+                android:layout_marginLeft="23dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="16dp"
+                android:text="Aryaduta Makassar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/keterangan_"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView84"
+                android:layout_alignStart="@+id/textView84"
+                android:layout_below="@+id/textView84"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/card_style3"
+                android:gravity="center"
+                android:text="Hotel"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/bintang1_"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/keterangan_"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_toEndOf="@+id/keterangan_"
+                android:layout_toRightOf="@+id/keterangan_"
+                android:src="@drawable/ic_star" />
+
+            <ImageView
+                android:id="@+id/bintang2_"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/bintang1_"
+                android:layout_toEndOf="@+id/bintang1_"
+                android:layout_toRightOf="@+id/bintang1_"
+                android:src="@drawable/ic_star" />
+
+            <ImageView
+                android:id="@+id/bintang3_"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/bintang2_"
+                android:layout_toEndOf="@+id/bintang2_"
+                android:layout_toRightOf="@+id/bintang2_"
+                android:src="@drawable/ic_star" />
+
+            <ImageView
+                android:id="@+id/bintang4_"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/bintang3_"
+                android:layout_toEndOf="@+id/bintang3_"
+                android:layout_toRightOf="@+id/bintang3_"
+                android:src="@drawable/ic_star" />
+
+            <ImageView
+                android:id="@+id/bintang5_"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/bintang4_"
+                android:layout_toEndOf="@+id/bintang4_"
+                android:layout_toRightOf="@+id/bintang4_"
+                android:src="@drawable/ic_star" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makassar, Indonesia"
+                android:textColor="#000000"
+                android:id="@+id/lokasiHotelDetail"
+                android:layout_below="@+id/keterangan_"
+                android:layout_alignLeft="@+id/keterangan_"
+                android:layout_alignStart="@+id/keterangan_"
+                android:layout_marginTop="5dp" />
+
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalkedua"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linePutih"
+                android:layout_marginTop="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+
+                    android:orientation="horizontal"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/z1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:drawableTop="@drawable/t_wifi"
+                        android:gravity="center"
+                        android:text="WiFi" />
+
+                    <TextView
+                        android:id="@+id/z2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:drawableTop="@drawable/t_kolam"
+                        android:gravity="center"
+                        android:text="Kolam" />
+
+                    <TextView
+                        android:id="@+id/z3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:drawableTop="@drawable/t_restaurant"
+                        android:gravity="center"
+                        android:text="Restoran" />
+
+                    <TextView
+                        android:id="@+id/z4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:drawableTop="@drawable/t_lift"
+                        android:gravity="center"
+                        android:text="Lift" />
+
+                    <TextView
+                        android:id="@+id/z5"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:drawableTop="@drawable/t_kebugaran"
+                        android:gravity="center"
+                        android:text="Kebugaran" />
+
+                    <TextView
+                        android:id="@+id/z6"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:drawableTop="@drawable/t_rapat"
+                        android:gravity="center"
+                        android:text="Rapat" />
+
+                    <TextView
+                        android:id="@+id/z7"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:drawableTop="@drawable/t_antar"
+                        android:gravity="center"
+                        android:layout_marginRight="30dp"
+                        android:text="Antar" />
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/horizontalkedua"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="LIHAT SEMUA FASILITAS"
+                android:textColor="#1B6BB2" />
+
+            <FrameLayout
+                android:id="@+id/content2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/textView83"
+                android:layout_marginTop="5dp">
+
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_below="@+id/content2"
+                android:layout_marginTop="20dp" />
+
+            <ImageView
+                android:id="@+id/lok"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/keterangan_"
+                android:layout_alignStart="@+id/keterangan_"
+                android:layout_alignTop="@+id/imageView16"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/ic_pin_hotel" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lok"
+                android:layout_toEndOf="@+id/keterangan_"
+                android:layout_toRightOf="@+id/keterangan_"
+                android:text="Hotel Aryaduta Makassar"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView852"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView85"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView85"
+                android:layout_below="@+id/textView85"
+                android:layout_marginBottom="10dp"
+                android:text="Jl. Pantai losari No. 24, Makassar, Indonesia" />
+
+            <TextView
+                android:id="@+id/textView852s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView16"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Deskripsi Hotel"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView852s"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:id="@+id/deskripsihotel"
+                android:text="Hotel Aryaduta Makassar merupakan akomodasi di tepi Pantai Losari
+yang menyajikan hunian mewah.
+
+Dari 224 kamar yang dimiliki, seluruhnya diduking fasilitas mewah seperti AC, TV, serta akses Wi-FI" />
+
+
+            <TextView
+                android:layout_below="@+id/deskripsihotel"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_marginTop="20dp"
+                android:background="#F6F6F6"
+                android:id="@+id/textView127" />
+            
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Harga per malam "
+                android:layout_marginTop="19dp"
+                android:id="@+id/textView87"
+                android:layout_alignTop="@+id/textView127"
+                android:layout_alignLeft="@+id/lok"
+                android:layout_alignStart="@+id/lok" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Rp. 4.600.000"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:id="@+id/hargaPerMalam"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/textView87"
+                android:layout_alignLeft="@+id/textView87"
+                android:layout_alignStart="@+id/textView87" />
+
+            <Button
+                android:layout_width="130dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_style"
+                android:id="@+id/pilihkamar__"
+                android:text="Pilih kamar"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView87"
+                android:layout_alignRight="@+id/deskripsihotel"
+                android:layout_alignEnd="@+id/deskripsihotel" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

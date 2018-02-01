@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadrizaldi.traveloka.ReviewHotel">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dakjdjsa">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#09A154"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/dahsdkasd"
+                android:text="Teliti kembali pemesanan Anda sebelum lanjut ke pembayaran"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/namaHotel_rvw"
+                android:layout_alignStart="@+id/namaHotel_rvw" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Hotel"
+                android:textSize="17dp"
+                android:id="@+id/dakdasjdahk"
+                android:layout_below="@+id/dahsdkasd"
+                android:layout_alignTop="@+id/garislurus2"
+                android:layout_alignLeft="@+id/dahsdkasd"
+                android:layout_alignStart="@+id/dahsdkasd" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aryaduta Hotel"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="7dp"
+                android:textColor="#000000"
+                android:id="@+id/namaHotel_rvw"
+                android:layout_below="@+id/dakdasjdahk"
+                android:textSize="16dp"/>
+
+            <View style="@style/Divider2"
+                android:id="@+id/garislurus22"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/namaHotel_rvw"/>
+
+
+
+           <TextView
+               android:layout_width="80dp"
+               android:layout_height="wrap_content"
+               android:textSize="16dp"
+                android:layout_marginTop="20dp"
+               android:layout_marginLeft="20dp"
+               android:text="Check-in"
+               android:layout_below="@+id/garislurus22"
+               android:id="@+id/textView125" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="09 Des 2017"
+                android:layout_below="@+id/textView125"
+                android:id="@+id/tanggal_checkin_rvw" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="7dp"
+                android:text="Sab, 14:00"
+                android:visibility="invisible"
+                android:id="@+id/textView125a"
+                android:layout_below="@+id/tanggal_checkin_rvw"
+                android:layout_alignLeft="@+id/tanggal_checkin_rvw"
+                android:layout_alignStart="@+id/tanggal_checkin_rvw" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="Check-out"
+
+                android:id="@+id/textView1252"
+                android:layout_above="@+id/tanggal_checkin_rvw"
+                android:layout_toRightOf="@+id/tanggal_checkin_rvw"
+                android:layout_toEndOf="@+id/tanggal_checkin_rvw" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:text="10 Des 2017"
+                android:id="@+id/tanggal_checkout_rvw"
+                android:layout_alignBaseline="@+id/tanggal_checkin_rvw"
+                android:layout_alignBottom="@+id/tanggal_checkin_rvw"
+                android:layout_toRightOf="@+id/tanggal_checkin_rvw"
+                android:layout_toEndOf="@+id/tanggal_checkin_rvw" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:visibility="invisible"
+                android:text="Sab, 12:00"
+                android:id="@+id/textView125aa"
+                android:layout_alignBaseline="@+id/textView125a"
+                android:layout_alignBottom="@+id/textView125a"
+                android:layout_toRightOf="@+id/tanggal_checkin_rvw"
+                android:layout_toEndOf="@+id/tanggal_checkin_rvw" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Durasi"
+                android:textSize="16dp"
+                android:layout_alignBaseline="@+id/textView1252"
+                android:layout_alignBottom="@+id/textView1252"
+                android:layout_toRightOf="@+id/tanggal_checkout_rvw"
+                android:layout_toEndOf="@+id/tanggal_checkout_rvw" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:text="1 Malam"
+                android:id="@+id/durasi_checkout_rvw"
+                android:layout_alignBaseline="@+id/tanggal_checkout_rvw"
+                android:layout_alignBottom="@+id/tanggal_checkout_rvw"
+                android:layout_toRightOf="@+id/tanggal_checkout_rvw"
+                android:layout_toEndOf="@+id/tanggal_checkout_rvw" />
+
+            <View style="@style/Divider2"
+                android:id="@+id/garislurus222"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView125a"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Kamar"
+                android:textSize="17dp"
+                android:id="@+id/dakdasjdahka"
+                android:layout_below="@+id/garislurus222"
+                android:layout_alignLeft="@+id/textView125a"
+                android:layout_alignStart="@+id/textView125a" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Superior Deluxe Only"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:layout_marginTop="7dp"
+                android:id="@+id/namaHotel_rvw_2s"
+                android:layout_below="@+id/dakdasjdahka"
+                android:layout_alignLeft="@+id/dakdasjdahka"
+                android:layout_alignStart="@+id/dakdasjdahka" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kapasitas 2 tamu/kamar"
+                android:textSize="15dp"
+                android:id="@+id/dakhjkd"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/namaHotel_rvw_2s"
+                android:layout_alignLeft="@+id/namaHotel_rvw_2s"
+                android:layout_alignStart="@+id/namaHotel_rvw_2s" />
+
+            <View style="@style/Divider2"
+                android:id="@+id/garislurus2222"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/dakhjkd"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kebijakan"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dakhjkda"
+                android:layout_marginTop="14dp"
+                android:layout_below="@+id/garislurus2222"
+                android:layout_alignLeft="@+id/dakhjkd"
+                android:layout_alignStart="@+id/dakhjkd" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="#000000"
+                android:id="@+id/Kebijakan"
+                android:text="Pemesanan ini tidak bisa di-refund. \n Waktu yang ditampilkan sesuai dengan waktu lokal hotel. Tanggal inap dan tipe kamar tidak dapat diubah."
+                android:layout_below="@+id/dakhjkda"
+                android:layout_marginRight="20dp"
+                android:layout_alignLeft="@+id/dakhjkda"
+                android:layout_alignStart="@+id/dakhjkda" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/Kebijakan"
+        android:id="@+id/adaapadkagdjakj"
+        android:layout_marginTop="20dp"
+        android:background="#E6EAED"/>
+
+    <TextView
+    android:layout_marginTop="35dp"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:text="Nama tamu"
+        android:layout_below="@+id/adaapadkagdjakj"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+    android:textSize="17dp"
+    android:id="@+id/dakdasjdahkaaa" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="AHMAD RIZALDI"
+        android:textSize="18dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/nama_tamu_rvw"
+        android:layout_below="@+id/dakdasjdahkaaa"
+        android:layout_alignLeft="@+id/dakdasjdahk"
+        android:layout_alignStart="@+id/dakdasjdahk" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="082344466665/team1@gmail.com"
+                android:textSize="15dp"
+                android:layout_marginTop="7dp"
+                android:id="@+id/kontak_tamu_rvw"
+                android:layout_below="@+id/nama_tamu_rvw"
+                android:layout_alignLeft="@+id/nama_tamu_rvw"
+                android:layout_alignStart="@+id/nama_tamu_rvw" />
+
+    <View style="@style/Divider2"
+    android:id="@+id/garislurus2222oo"
+    android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+    android:layout_below="@+id/kontak_tamu_rvw"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="invisible"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/permintaankhusus_rvw"
+        android:layout_below="@+id/garislurus2222oo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rincian Harga"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/permintaankhusus_rvw"
+        android:layout_alignLeft="@+id/permintaankhusus_rvw"
+        android:layout_alignStart="@+id/permintaankhusus_rvw"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView124" />
+
+    <TextView
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:text="Aryaduta Makassar, Superior Room Only (1x)"
+    android:textSize="16dp"
+    android:textColor="#000000"
+    android:layout_marginTop="15dp"
+    android:id="@+id/namaroom_aarvw"
+    android:layout_below="@+id/textView124"
+    android:layout_alignLeft="@+id/textView124"
+    android:layout_alignStart="@+id/textView124" />
+
+    <TextView
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:text="Rp. 15.000.000"
+        android:textSize="16dp"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:id="@+id/harga_troom"
+        android:layout_alignBaseline="@+id/namaroom_aarvw"
+        android:layout_alignBottom="@+id/namaroom_aarvw"
+        android:layout_alignRight="@+id/kodeUnikHotel_rvw"
+        android:layout_alignEnd="@+id/kodeUnikHotel_rvw" />
+
+    <View style="@style/Divider2"
+        android:id="@+id/garislurus2222ooa"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/namaroom_aarvw"/>
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Kode Unik"
+        android:textSize="16dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#09A154"
+        android:id="@+id/Kodeu"
+        android:layout_below="@+id/garislurus2222ooa"
+        android:layout_alignLeft="@+id/namaroom_aarvw"
+        android:layout_alignStart="@+id/namaroom_aarvw" />
+
+
+            <TextView
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:text="Rp. 1.420"
+                android:textSize="16dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:textColor="#09A154"
+                android:id="@+id/kodeUnikHotel_rvw"
+                android:layout_alignBaseline="@+id/Kodeu"
+                android:layout_alignBottom="@+id/Kodeu"
+                android:layout_toRightOf="@+id/Kodeu"
+                android:layout_toEndOf="@+id/Kodeu" />
+
+
+
+    <View style="@style/Divider2"
+        android:id="@+id/garislurus2222ooaaaa"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/kodeUnikHotel_rvw"/>
+
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#000000"
+                android:id="@+id/Kodeua"
+                android:layout_below="@+id/garislurus2222ooaaaa"
+                android:layout_alignLeft="@+id/namaroom_aarvw"
+                android:layout_alignStart="@+id/namaroom_aarvw" />
+
+    <TextView
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:text="Rp. 15.000.000"
+        android:textSize="16dp"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:id="@+id/total_hotel_rvw"
+        android:layout_alignBaseline="@+id/Kodeua"
+        android:layout_alignBottom="@+id/Kodeua"
+        android:layout_alignRight="@+id/kodeUnikHotel_rvw"
+        android:layout_alignEnd="@+id/kodeUnikHotel_rvw" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#A5DBFF"
+        android:id="@+id/garisbiruadjada"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/total_hotel_rvw"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1878C2"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Selesaikan transaksi dan akun (Ahmadrizaldi97.jr@gmail.com) akan mendapatkan 100 Poin"
+        android:id="@+id/textView64"
+        android:layout_alignBottom="@+id/garisbiruadjada"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:textColor="#ffffff"
+        android:text="Lanjutkan"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/garisbiruadjada"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/hotel_lanjut_ke_pembayaran_rvw"/>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.ahmadrizaldi.traveloka.FragmentHotel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:layout_margin="20dp"
+        android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/kePenerbangan"
+                android:paddingTop="5dp"
+                android:background="#ffffff"
+                android:drawableTop="@drawable/ic_planecopy"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:background="#ffffff"
+                android:drawableTop="@drawable/ic_hotelcopy"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycleViewBookingHotel2">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

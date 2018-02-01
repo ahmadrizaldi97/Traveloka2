@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Traveloka</string>
+
+
+    <string-array name="maskapai">
+        <item>Garuda Indonesia</item>
+        <item>Citilink</item>
+        <item>Lion Air</item>
+        <item>Sriwijaya Air</item>
+        <item>Air Asia</item>
+        <item>Qatar Airways</item>
+        <item>Trigana Air</item>
+        <item>Wings Air</item>
+    </string-array>
+
+    <string-array name="kelas">
+        <item>Economy Class</item>
+        <item>Business Class</item>
+        <item>First Class</item>
+    </string-array>
+    <string name="title_activity_layout_admin">LayoutAdmin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_konfirmasi_pmb">KonfirmasiPmb</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main_m">Traveloka</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Booking</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="permintaankhusus">Butuh ranjang tambahan dan lainnya ? Ajukan permintaan anda dan properti akan berusaha memenuhinya.
+    (Permintaan khusus tidak dijamin dan dapat dikenakan biaya)</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

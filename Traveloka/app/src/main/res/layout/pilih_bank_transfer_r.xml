@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6EAED"
+    tools:context="com.example.ahmadrizaldi.traveloka.PilihBankTransferR">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Pilih Bank"
+        android:id="@+id/textViewssiadaR" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textViewssiadaR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView65aiiiR" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/bca"
+        android:layout_alignTop="@+id/textView65aiiiR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView723R" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="BCA"
+        android:id="@+id/bcaaaR"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/imageView723R"
+        android:layout_toRightOf="@+id/imageView723R"
+        android:layout_toEndOf="@+id/imageView723R"
+        android:layout_alignBottom="@+id/imageView723R" />
+
+    <!--dkald-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:id="@+id/textView65asR"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/textView65aiiiR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/mandiri"
+        android:layout_alignTop="@+id/textView65asR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView7s1R" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Mandiri"
+        android:id="@+id/mandiriaR"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/imageView7s1R"
+        android:layout_toRightOf="@+id/imageView7s1R"
+        android:layout_toEndOf="@+id/imageView7s1R"
+        android:layout_alignBottom="@+id/imageView7s1R" />
+
+    <!--daghas-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:id="@+id/textView652saaR"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/textView65asR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/bri"
+        android:layout_alignTop="@+id/textView652saaR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView72saaaaaa" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="BRI"
+        android:id="@+id/briaaaR"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/imageView72saaaaaa"
+        android:layout_toRightOf="@+id/imageView72saaaaaa"
+        android:layout_toEndOf="@+id/imageView72saaaaaa"
+        android:layout_alignBottom="@+id/imageView72saaaaaa" />
+
+    <!--djsahh-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_marginTop="3dp"
+        android:id="@+id/textView65s1111R"
+        android:layout_below="@+id/textView652saaR"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/bni"
+        android:layout_alignTop="@+id/textView65s1111R"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView71s111R" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="BNI"
+        android:id="@+id/bnis111R"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/imageView71s111R"
+        android:layout_toRightOf="@+id/imageView71s111R"
+        android:layout_toEndOf="@+id/imageView71s111R"
+        android:layout_alignBottom="@+id/imageView71s111R" />
+
+</RelativeLayout>

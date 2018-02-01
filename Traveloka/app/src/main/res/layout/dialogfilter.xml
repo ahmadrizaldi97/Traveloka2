@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#E6EAED"
+    android:layout_height="match_parent">
+
+
+
+
+    <!--hdkgashjdasdgasjdasdsadhjsahjdasdaBatas-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        <TextView
+        android:layout_width="190dp"
+        android:text="MASKAPAI"
+        android:textSize="14dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/djaihsb12sdahsuadyas12d"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView132"
+        android:layout_below="@+id/djaihsb12sdahsuadyas12d"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/ms1"
+            android:drawableRight="@drawable/garudalogocopy"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+        android:text="Garuda Indonesia"
+
+        android:layout_marginTop="24dp"
+            android:layout_alignTop="@+id/textView132"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/dkjadhjaaajda"
+        android:layout_below="@+id/ms1"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/darker_gray"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/ms2"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableRight="@drawable/citilinkcopy"
+        android:text="Citilink"
+        android:layout_below="@+id/dkjadhjaaajda"
+        android:layout_alignLeft="@+id/ms1"
+        android:layout_alignStart="@+id/ms1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/dkjadhjaaaajda"
+        android:layout_below="@+id/ms2"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/ms3"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableRight="@drawable/sriwijawalogocopy"
+        android:text="Sriwijaya Air"
+        android:layout_below="@+id/dkjadhjaaaajda"
+        android:layout_alignLeft="@+id/ms1"
+        android:layout_alignStart="@+id/ms1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/dkjadhjaaaajd1a"
+        android:layout_below="@+id/ms3"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/ms4"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableRight="@drawable/lionairlogocopy"
+        android:text="Lion Air"
+        android:layout_below="@+id/dkjadhjaaaajd1a"
+        android:layout_alignLeft="@+id/ms1"
+        android:layout_alignStart="@+id/ms1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/dkjadhjaaaajd11a"
+        android:layout_below="@+id/ms4"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/ms5"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableRight="@drawable/batiklogocopy"
+        android:text="Batik Air"
+        android:layout_below="@+id/dkjadhjaaaajd11a"
+        android:layout_alignLeft="@+id/ms1"
+        android:layout_alignStart="@+id/ms1" />
+
+
+
+<!--ddadhasgdasjdvjsagdsadvasdgasjdgsajfdsfadfsajdfjsafdjfasdfasdasbatasd sadjash-->
+
+    <TextView
+        android:layout_width="190dp"
+        android:text="WAKTU BERANGKAT"
+        android:textSize="14dp"
+        android:layout_below="@+id/textView132"
+        android:layout_height="wrap_content"
+        android:id="@+id/djaihsduyasduasdaudabsdahsuadyasd"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:text="BEBAS"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/garudalogo"
+        android:id="@+id/djaihsduyasduasdAaudabsdahsuadyasd"
+        android:layout_alignBaseline="@+id/djaihsduyasduasdaudabsdahsuadyasd"
+        android:layout_alignBottom="@+id/djaihsduyasduasdaudabsdahsuadyasd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+    <!---->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/djaihsduyasduasdaudabsdahsuadyasd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView132aa" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="17dp"
+        android:id="@+id/j1"
+        android:text="00:00 - 06:00"
+        android:layout_alignTop="@+id/textView132aa"
+        android:layout_alignLeft="@+id/djaihsduyasduasdaudabsdahsuadyasd"
+        android:layout_alignStart="@+id/djaihsduyasduasdaudabsdahsuadyasd"
+        android:layout_marginTop="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/dkjadhjaajda"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/j1"
+        android:background="@android:color/darker_gray"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/j2"
+        android:text="06:00 - 12:00"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/dkjadhjaajda"
+        android:layout_alignLeft="@+id/j1"
+        android:layout_alignStart="@+id/j1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/dkjadhjaaa12jda"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/j2"
+        android:background="@android:color/darker_gray"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/j3"
+        android:text="12:00 - 18:00"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/dkjadhjaaa12jda"
+        android:layout_alignLeft="@+id/j1"
+        android:layout_alignStart="@+id/j1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/dkjadhjaaaaajdava"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/j3"
+        android:background="@android:color/darker_gray"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="17dp"
+        android:id="@+id/j4"
+        android:text="12:00 - 18:00"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/dkjadhjaaaaajdava"
+        android:layout_alignLeft="@+id/j1"
+        android:layout_alignStart="@+id/j1" />
+
+    <!--ahsfdasdkagsdajsdasjdgasjdagjdgaghdasdjasdsd-->
+
+
+    <TextView
+        android:layout_width="190dp"
+        android:text="HARGA / PENUMPANG"
+        android:textSize="14dp"
+        android:layout_below="@+id/textView132aa"
+        android:layout_height="wrap_content"
+        android:id="@+id/djaihsb12sdahsuadya12s12d"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#ffffff"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView132DD12"
+        android:layout_below="@+id/djaihsb12sdahsuadya12s12d"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Rp. 50.000"
+        android:layout_marginRight="20dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/hargaFilter"
+        android:layout_marginTop="32dp"
+        android:layout_alignTop="@+id/textView132DD12"
+        android:layout_alignLeft="@+id/djaihsb12sdahsuadya12s12d"
+        android:layout_alignStart="@+id/djaihsb12sdahsuadya12s12d" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarHarga"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/hargaFilter"
+        android:layout_alignLeft="@+id/hargaFilter"
+        android:layout_alignStart="@+id/hargaFilter" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Filter Pencarian"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textView132DD12"
+                android:id="@+id/simpanFilter"
+                android:background="@drawable/button_style"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

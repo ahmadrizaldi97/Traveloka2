@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:src="@drawable/ic_hotel"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="14dp"
+        android:id="@+id/imageView17"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Superior"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/imageView17"
+        android:layout_toRightOf="@+id/imageView17"
+        android:layout_toEndOf="@+id/imageView17"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView90" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/makangreen"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/imageView17"
+        android:layout_alignLeft="@+id/imageView17"
+        android:layout_alignStart="@+id/imageView17"
+        android:id="@+id/imageView18" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:text="Sarapan gratis"
+        android:textColor="#159B56"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView18"
+        android:layout_toRightOf="@+id/imageView18"
+        android:layout_toEndOf="@+id/imageView18"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignBottom="@+id/imageView18"
+        android:id="@+id/textView86" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/kebijakanblack"
+        android:id="@+id/imageView18s"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/imageView18"
+        android:layout_alignLeft="@+id/imageView18"
+        android:layout_alignStart="@+id/imageView18" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:text="Tidak bisa Refund"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView18s"
+        android:layout_alignLeft="@+id/textView86"
+        android:layout_alignStart="@+id/textView86"
+        android:id="@+id/textView88" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:text="/Kamar/Malam"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView88s"
+        android:layout_alignTop="@+id/textView86"
+        android:layout_alignRight="@+id/hargaHotelllllll"
+        android:layout_alignEnd="@+id/hargaHotelllllll"
+        android:layout_alignBottom="@+id/textView86" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/wifigreen"
+        android:id="@+id/imageView18ss"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/imageView18s"
+        android:layout_alignLeft="@+id/imageView18"
+        android:layout_alignStart="@+id/imageView18" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:text="Wifi Gratis"
+        android:textColor="#159B56"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView86s"
+        android:layout_alignTop="@+id/imageView18ss"
+        android:layout_alignLeft="@+id/textView88"
+        android:layout_alignStart="@+id/textView88" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 1.560.000"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:id="@+id/hargaHotelllllll"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#F96D01"
+        android:layout_alignTop="@+id/textView88"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:layout_width="90dp"
+        android:text="  Dapatkan"
+        android:drawableLeft="@drawable/poinlogocopy"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView89"
+        android:layout_alignBaseline="@+id/textView86s"
+        android:layout_alignBottom="@+id/textView86s"
+        android:layout_toLeftOf="@+id/poinHotel"
+        android:layout_toStartOf="@+id/poinHotel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="156 Poin"
+        android:id="@+id/poinHotel"
+        android:textColor="#269DD7"
+
+        android:layout_alignBaseline="@+id/textView89"
+        android:layout_alignBottom="@+id/textView89"
+        android:layout_alignRight="@+id/hargaHotelllllll"
+        android:layout_alignEnd="@+id/hargaHotelllllll" />
+
+    <TextView
+        android:id="@+id/textView83saaaaa"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Lihat Detail"
+        android:textColor="#1B6BB2"
+        android:layout_alignBaseline="@+id/pilihRoom"
+        android:layout_alignBottom="@+id/pilihRoom"
+        android:layout_alignLeft="@+id/imageView18ss"
+        android:layout_alignStart="@+id/imageView18ss" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Pilih"
+        android:id="@+id/pilihRoom"
+        android:background="@drawable/button_style"
+        android:layout_below="@+id/imageView18ss"
+        android:layout_alignRight="@+id/hargaHotelllllll"
+        android:layout_alignEnd="@+id/hargaHotelllllll"
+        android:layout_marginTop="14dp" />
+
+
+</RelativeLayout>

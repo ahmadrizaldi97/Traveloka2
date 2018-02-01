@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ahmadrizaldi.traveloka.Pemesanan"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#1BA0E2"
+        android:text="No. Pemesanan 123456789"
+        android:paddingLeft="20dp"
+        android:id="@+id/textView20"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1BA0E2"
+        android:text=" 1. Pemesanan"
+        android:drawableLeft="@drawable/ic_check_blue_background"
+        android:paddingLeft="20dp"
+        android:id="@+id/p2"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/p3"
+        android:text=" 2. Pembayaran"
+        android:background="#0770CD"
+        android:drawableLeft="@drawable/multislider_scrubber_control_pressed_holo"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:textSize="17dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1BA0E2"
+        android:text=" 3. E-Ticket"
+        android:id="@+id/p4"
+        android:drawableLeft="@drawable/multislider"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:textSize="17dp"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/TTS"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="#F6F6F6"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:text="Aryaduta Hotel Makassar"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="17dp" />-->
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:id="@+id/textView19tt"
+            android:textStyle="bold"
+            android:text="Menunggu Pembayaran"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:id="@+id/deskripsidikit"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Mohon selesaikan pembayaran Anda. Jika telah membayar, silahkan konfirmasi dengan menekan tombol dibawah ini"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/uploadgambar"
+            android:text="Upload Bukti Pembayaran"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_style"
+            android:layout_marginLeft="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

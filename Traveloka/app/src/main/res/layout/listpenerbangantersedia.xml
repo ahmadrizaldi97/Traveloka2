@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="105dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Air Asia"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/namamaskapaiy"/>
+        
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/airasia"
+            android:id="@+id/logomaskapai"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/namamaskapaiy"
+            android:layout_toEndOf="@+id/namamaskapaiy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15:20 - 07-20"
+            android:id="@+id/waktu"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/logomaskapai"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1j 45mnt"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/waktu"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 1.560.000"
+            android:layout_marginRight="11dp"
+            android:layout_marginEnd="11dp"
+            android:id="@+id/harga"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#F96D01"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dapatkan 156 Poin"
+            android:id="@+id/poinsss"
+            android:layout_below="@+id/namamaskapaiy"
+            android:layout_alignRight="@+id/harga"
+            android:layout_alignEnd="@+id/harga" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content"
+            android:text="Langsung"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
